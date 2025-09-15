@@ -1,0 +1,118 @@
+[
+  {
+  "id": 1,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+  "A) (-5, -6)",
+  "B) (-2, 5)",
+  "C) (1, 4)",
+  "D) (6, -2)"
+],
+  "image": "/static/March2025_Images/Algebra/LinearInequalitiesInOneOrTwoVariables/12151_1.png",
+  "difficulty": "medium",
+  "active": "no",
+  "marked": false,
+  "answer": "D) (6, -2)",
+  "explanation": "Choice D is correct. Since the shaded region shown represents the solutions to an inequality, an ordered pair (x,y) is a solution to the inequality if it's represented by a point in the shaded region. Of the given choices, only (6, -2) is represented by a point in the shaded region. Therefore, the ordered pair (6, -2) is a solution to this inequality. Choice A is incorrect and may result from conceptual errors. Choice B is incorrect and may result from conceptual errors. Choice C is incorrect and may result from conceptual errors."
+},
+{
+  "id": 2,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+  "A) 14",
+  "B) 76",
+  "C) 86",
+  "D) 186"
+],
+  "image": "/static/March2025_Images/Algebra/LinearInequalitiesInOneOrTwoVariables/12155_2.png",
+  "difficulty": "easy",
+  "active": "no",
+  "marked": false,
+  "answer": "A) 14",
+  "explanation": "Choice A is correct. It's given that Julissa already has 86 hours of flight time. Let x represent the number of additional hours of flight time Julissa needs to get her private pilot certification. After completing x hours of flight time, Julissa will have completed a total of 86 + x hours of flight time. It's given that Julissa needs at least 100 hours of flight time to get her private pilot certification. Therefore, 86 + x >= 100. Subtracting 86 from both sides of this inequality yields x >= 14. Thus, 14 is the minimum number of additional hours of flight time Julissa needs to get her private pilot certification. Choice B is incorrect and may result from conceptual or calculation errors. Choice C is incorrect. This is the number of hours of flight time Julissa already has, rather than the minimum number of additional hours of flight time Julissa needs. Choice D is incorrect. This is the number of hours of flight time Julissa will have if she completes 100 more hours of flight time, rather than the minimum number of additional hours of flight time Julissa needs."
+},
+{
+  "id": 3,
+  "type": "free-response",
+  "question": "",
+  "choices": [],
+  "image": "/static/March2025_Images/Algebra/LinearInequalitiesInOneOrTwoVariables/12166_3.png",
+  "difficulty": "medium",
+  "active": "no",
+  "marked": false,
+  "answer": "25",
+  "explanation": "The correct answer is 25. The total cost of the party is found by adding the onetime fee of the venue to the cost per attendee times the number of attendees. Let x be the number of attendees. The expression 35 + 10.25x thus represents the total cost of the party. It's given that the budget is $300, so this situation can be represented by the inequality 35 + 10.25x <= 300. Subtracting 35 from both sides of this inequality gives 10.25x <= 265. Dividing both sides of this inequality by 10.25 results in approximately x <= 25.854. Since the question is stated in terms of attendees, rounding 25.854 down to the greatest whole number gives the greatest number of attendees possible, which is 25."
+},
+{
+  "id": 4,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+  "A) (19, 18), (20, 19), (21, 20)",
+  "B) (19, 20), (20, 21), (21, 22)",
+  "C) (22, 23), (23, 24), (24, 25)",
+  "D) (23, 24), (24, 25), (25, 26)"
+],
+  "image": "/static/March2025_Images/Algebra/LinearInequalitiesInOneOrTwoVariables/12169_4.png",
+  "difficulty": "medium",
+  "active": "no",
+  "marked": false,
+  "answer": "A) (19, 18), (20, 19), (21, 20)",
+  "explanation": "Choice A is correct. The inequality y < x indicates that for any solution to the given system of inequalities, the value of x must be greater than the corresponding value of y. The inequality x < 22 indicates that for any solution to the given system of inequalities, the value of x must be less than 22. Of the given choices, only choice A contains values of x that are each greater than the corresponding value of y and less than 22. Therefore, for choice A, all the values of x and their corresponding values of y are solutions to the given system of inequalities. Choice B is incorrect. The values in this table aren't solutions to the inequality y < x. Choice C is incorrect. The values in this table aren't solutions to the inequality x < 22. Choice D is incorrect. The values in this table aren't solutions to the inequality y < x or the inequality x < 22."
+},
+{
+  "id": 5,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+  "A) (3, 17), (5, 27), (7, 37)",
+  "B) (3, 25), (5, 27), (7, 37)",
+  "C) (3, 25), (5, 35), (7, 45)",
+  "D) (3, 21), (5, 31), (7, 41)"
+],
+  "image": "/static/March2025_Images/Algebra/LinearInequalitiesInOneOrTwoVariables/12172_5.png",
+  "difficulty": "hard",
+  "active": "no",
+  "marked": false,
+  "answer": "A) (3, 17), (5, 27), (7, 37)",
+  "explanation": "Choice A is correct. Substituting 3 for x in the given inequality yields y < 5(3)+6, or y < 21. Therefore, when x = 3, the corresponding value of y is less than 21. Substituting 5 for x in the given inequality yields y < 5(5)+6, or y < 31. Therefore, when x = 5, the corresponding value of y is less than 31. Substituting 7 for x in the given inequality yields y < 5(7)+6, or y < 41. Therefore, when x = 7, the corresponding value of y is less than 41. For the table in choice A, when x = 3, the corresponding value of y is 17, which is less than 21; when x = 5, the corresponding value of y is 27, which is less than 31; and when x = 7, the corresponding value of y is 37, which is less than 41. Therefore, the table in choice A gives values of x and their corresponding values of y that are all solutions to the given inequality. Choice B is incorrect and may result from conceptual or calculation errors. Choice C is incorrect and may result from conceptual or calculation errors. Choice D is incorrect and may result from conceptual or calculation errors."
+},
+{
+  "id": 6,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+  "A) (3, 20), (5, 32), (7, 44)",
+  "B) (3, 16), (5, 30), (7, 40)",
+  "C) (3, 16), (5, 28), (7, 40)",
+  "D) (3, 24), (5, 36), (7, 48)"
+],
+  "image": "/static/March2025_Images/Algebra/LinearInequalitiesInOneOrTwoVariables/12180_6.png",
+  "difficulty": "hard",
+  "active": "no",
+  "marked": false,
+  "answer": "C) (3, 16), (5, 28), (7, 40)",
+  "explanation": "Choice C is correct. All the tables in the choices have the same three values of x, so each of the three values of x can be substituted in the given inequality to compare the corresponding values of y in each of the tables. Substituting 3 for x in the given inequality yields y < 6(3)+2, or y < 20. Therefore, when x = 3, the corresponding value of y is less than 20. Substituting 5 for x in the given inequality yields y < 6(5)+2, or y < 32. Therefore, when x = 5, the corresponding value of y is less than 32. Substituting 7 for x in the given inequality yields y < 6(7)+2, or y < 44. Therefore, when x = 7, the corresponding value of y is less than 44. For the table in choice C, when x = 3, the corresponding value of y is 16, which is less than 20; when x = 5, the corresponding value of y is 28, which is less than 32; when x = 7, the corresponding value of y is 40, which is less than 44. Therefore the table in choice C gives values of x and their corresponding values of y that are all solutions to the given inequality. Choice A is incorrect. In the table for choice A, when x = 3, the corresponding value of y is 20, which is not less than 20; when x = 5, the corresponding value of y is 32, which is not less than 32; when x = 7, the corresponding value of y is 44, which is not less than 44. Choice B is incorrect. In the table for choice B, when x = 5, the corresponding value of y is 36, which is not less than 32. Choice D is incorrect. In the table for choice D, when x = 3, the corresponding value of y is 24, which is not less than 20; when x = 5, the corresponding value of y is 36, which is not less than 32; when x = 7, the corresponding value of y is 48, which is not less than 44."
+},
+{
+  "id": 7,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+  "A) 12(x + 6) ≤ x + (x + 4) - 26",
+  "B) 12(x + 6) ≥ 26 - (x + (x + 4))",
+  "C) 12(x + 4) ≤ x + (x + 3) - 26",
+  "D) 12(x + 4) ≥ 26 - (x + (x + 3))"
+],
+  "image": "/static/March2025_Images/Algebra/LinearInequalitiesInOneOrTwoVariables/12182_7.png",
+  "difficulty": "easy",
+  "active": "no",
+  "marked": false,
+  "answer": "A) 12(x + 6) ≤ x + (x + 4) - 26",
+  "explanation": "Choice A is correct. It's given that the four odd integers are consecutive, ordered from least to greatest, and that the first odd integer is represented by x. It follows that the second odd integer is represented by x + 2, the third odd integer is represented by x + 4, and the fourth odd integer is represented by x + 6. Therefore, the product of 12 and the fourth odd integer is represented by 12(x + 6), and 26 less than the sum of the first and third odd integers is represented by x + (x + 4) - 26. Since the product of 12 and the fourth odd integer is at most 26 less than the sum of the first and third odd integers, it follows that 12(x + 6)<=x+(x + 4) - 26. Choice B is incorrect and may result from conceptual or calculation errors. Choice C is incorrect and may result from conceptual or calculation errors. Choice D is incorrect and may result from conceptual or calculation errors."
+}
+]
+
+

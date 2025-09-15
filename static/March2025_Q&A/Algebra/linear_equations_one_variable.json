@@ -1,0 +1,205 @@
+[
+  {
+  "id": 1,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+    "A) 51",
+    "B) 350",
+    "C) 364",
+    "D) 3,577"
+  ],
+  "image": "/static/March2025_Images/Algebra/LinearEquationsInOneVariable/12143_1.png",
+  "difficulty": "easy",
+  "active": "no",
+  "marked": false,
+  "answer": "B) 350",
+  "explanation": "Choice B is correct. Subtracting 7 from each side of the given equation yields w = 350. Therefore, the value of w that is the solution to the given equation is 350.\n\nChoice A is incorrect. This is the value of w that is the solution to the equation 7w = 357, not w + 7 = 357. \nChoice C is incorrect. This is the value of w that is the solution to the equation w - 7 = 357, not w + 7 = 357.\n\nChoice D is incorrect and may result from conceptual or calculation errors."
+},
+{
+  "id": 2,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+    "A) 1.90p + 2 = 9.60",
+    "B) 1.90p - 2 = 9.60",
+    "C) 1.90 + 2p = 9.60",
+    "D) 1.90 - 2p = 9.60"
+  ],
+  "image": "/static/March2025_Images/Algebra/LinearEquationsInOneVariable/12149_2.png",
+  "difficulty": "easy",
+  "active": "no",
+  "marked": false,
+  "answer": "A) 1.90p + 2 = 9.60",
+  "explanation": "Choice A is correct. It's given that p represents the number of pounds of strawberries Lorenzo purchased and Lorenzo paid $1.90 per pound for the strawberries. It follows that the total amount, in dollars, Lorenzo paid for strawberries can be represented by 1.90p. It's given that Lorenzo paid $2 for the box of cereal. If Lorenzo paid a total of $9.60 for the box of cereal and strawberries, it follows that the equation 1.90p + 2 = 9.60 can be used to find p. Choice B is incorrect and may result from conceptual errors. Choice C is incorrect and may result from conceptual errors. Choice D is incorrect and may result from conceptual errors."
+},
+{
+  "id": 3,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+    "A) 35",
+    "B) 130",
+    "C) 165",
+    "D) 330"
+  ],
+  "image": "/static/March2025_Images/Algebra/LinearEquationsInOneVariable/12165_3.png",
+  "difficulty": "easy",
+  "active": "no",
+  "marked": false,
+  "answer": "A) 35",
+  "explanation": "Choice A is correct. It's given that a total of 165 people contributed to a charity event as either a donor or a volunteer. It's also given that 130 people contributed as a donor. It follows that 165 - 130, or 35, people contributed as a volunteer. Choice B is incorrect. This is the number of people who contributed as a donor, not a volunteer. Choice C is incorrect. This is the total number of people who contributed as either a donor or a volunteer, not the number of people who contributed as a volunteer. Choice D is incorrect and may result from conceptual or calculation errors."
+},
+{
+  "id": 4,
+  "type": "free-response",
+  "question": "",
+  "choices": [],
+  "image": "/static/March2025_Images/Algebra/LinearEquationsInOneVariable/12167_4.png",
+  "difficulty": "medium",
+  "active": "no",
+  "marked": false,
+  "answer": "42",
+  "explanation": "The correct answer is 42. The expression (x + 6) is a factor of both terms on the left-hand side of the given equation. Therefore, the given equation can be written as (x + 6) (1/3 − 1/2) = −8, or (x + 6) (−1/6) = −8. Multiplying each side of this equation by −6 yields x + 6 = 48. Subtracting 6 from each side of this equation yields x = 42. Therefore, the value of x that is the solution to the given equation is 42."
+},
+{
+  "id": 5,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+    "A) 16x = 30",
+    "B) 16x = 130",
+    "C) 16x = 160",
+    "D) 16x = 190"
+  ],
+  "image": "/static/March2025_Images/Algebra/LinearEquationsInOneVariable/12174_5.png",
+  "difficulty": "easy",
+  "active": "no",
+  "marked": false,
+  "answer": "C) 16x = 160",
+  "explanation": "Choice C is correct. It's given that 16x + 30 = 190. Subtracting 30 from each side of this equation yields 16x = 160. Therefore, the equation 16x = 160 is equivalent to the given equation and has the same solution. Choice A is incorrect and may result from conceptual or calculation errors. Choice B is incorrect and may result from conceptual or calculation errors. Choice D is incorrect and may result from conceptual or calculation errors."
+},
+{
+  "id": 6,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+    "A) 9/2",
+    "B) 6",
+    "C) 18",
+    "D) 72"
+  ],
+  "image": "/static/March2025_Images/Algebra/LinearEquationsInOneVariable/12175_6.png",
+  "difficulty": "easy",
+  "active": "no",
+  "marked": false,
+  "answer": "C) 18",
+  "explanation": "Choice C is correct. It's given that 4x = 3. Multiplying each side of this equation by 6 yields 24x = 18. Therefore, the value of 24x is 18. Choice A is incorrect. This is the value of 6x, not 24x. Choice B is incorrect. This is the value of 8x, not 24x. Choice D is incorrect. This is the value of 96x, not 24x."
+},
+{
+  "id": 7,
+  "type": "free-response",
+  "question": "",
+  "choices": [],
+  "image": "/static/March2025_Images/Algebra/LinearEquationsInOneVariable/12179_7.png",
+  "difficulty": "easy",
+  "active": "no",
+  "marked": false,
+  "answer": "0.2",
+  "explanation": "The correct answer is .2. Subtracting 2.6 from each side of the given equation yields x = 0.2. Therefore, the value of x that’s the solution to the given equation is 0.2. Note that .2 and 1/5 are examples of ways to enter a correct answer."
+},
+{
+  "id": 8,
+  "type": "free-response",
+  "question": "",
+  "choices": [],
+  "image": "/static/March2025_Images/Algebra/LinearEquationsInOneVariable/12181_8.png",
+  "difficulty": "medium",
+  "active": "no",
+  "marked": false,
+  "answer": "294",
+  "explanation": "The correct answer is 294. Subtracting 18 from each side of the given equation yields (7/6)p = 36. Multiplying each side of this equation by (6/7) yields p = 42. Multiplying each side of this equation by 7 yields 7p = 294. Therefore, the value of 7p is 294."
+},
+{
+  "id": 9,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+    "A) 3",
+    "B) 7",
+    "C) 36",
+    "D) 44"
+  ],
+  "image": "/static/March2025_Images/Algebra/LinearEquationsInOneVariable/12185_9.png",
+  "difficulty": "medium",
+  "active": "no",
+  "marked": false,
+  "answer": "D) 44",
+  "explanation": "Choice D is correct. It's given that the bowl starts with 20 ounces of water and has 9 ounces of water remaining after a period of time has passed. The amount of water the bowl has lost during the time period can be found by subtracting the remaining amount of water from the original amount of water, which yields 20 - 9 ounces, or 11 ounces. It's uncovered, it follows that 1/4 = 11/t. Multiplying both sides of this equation by 4t yields t = 44. Therefore, the bowl has been uncovered for 44 days. Choice A is incorrect and may result from conceptual or calculation errors. Choice B is incorrect and may result from conceptual or calculation errors. Choice C is incorrect. This is the value of t for the equation 1/4 = 9/t, not 1/4 = 11/t."
+},
+{
+  "id": 10,
+  "type": "free-response",
+  "question": "",
+  "choices": [],
+  "image": "/static/March2025_Images/Algebra/LinearEquationsInOneVariable/12187_10.png",
+  "difficulty": "hard",
+  "active": "no",
+  "marked": false,
+  "answer": "11",
+  "explanation": "The correct answer is 11. Subtracting 5 from each side of the given equation yields −7(2 − 4x) = 11 − 8(2 − 4x). Adding 8(2 − 4x) to each side of this equation yields 2 − 4x = 11. Therefore, the value of 2 − 4x is 11."
+},
+{
+  "id": 11,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+    "A) 5",
+    "B) 25",
+    "C) 48",
+    "D) 300"
+  ],
+  "image": "/static/March2025_Images/Algebra/LinearEquationsInOneVariable/12195_11.png",
+  "difficulty": "easy",
+  "active": "no",
+  "marked": false,
+  "answer": "B) 25",
+  "explanation": "Choice B is correct. Subtracting 275 from both sides of the given equation yields 2p = 50. Dividing both sides of this equation by 2 yields p = 25. Therefore, the value of p that satisfies the given equation is 25. Choice A is incorrect and may result from conceptual or calculation errors. Choice C is incorrect. This is the value of p that satisfies the equation (2 + p) + 275 = 325, not 2p + 275 = 325. Choice D is incorrect. This is the value of p that satisfies the equation 2p − 275 = 325, not 2p + 275 = 325."
+},
+{
+  "id": 12,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+    "A) 3",
+    "B) 15",
+    "C) 54",
+    "D) 57"
+  ],
+  "image": "/static/March2025_Images/Algebra/LinearEquationsInOneVariable/12198_12.png",
+  "difficulty": "easy",
+  "active": "no",
+  "marked": false,
+  "answer": "C) 54",
+  "explanation": "Choice C is correct. It's given that 8x = 6. Multiplying each side of this equation by 9 yields 72x = 54. Therefore, the value of 72x is 54. Choice A is incorrect. This is the value of 4x, not 72x. Choice B is incorrect and may result from conceptual or calculation errors. Choice D is incorrect and may result from conceptual or calculation errors."
+},
+{
+  "id": 13,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+    "A) -16",
+    "B) -4",
+    "C) 4",
+    "D) 16"
+  ],
+  "image": "/static/March2025_Images/Algebra/LinearEquationsInOneVariable/12199_13.png",
+  "difficulty": "medium",
+  "active": "no",
+  "marked": false,
+  "answer": "D) 16",
+  "explanation": "Choice D is correct. The value of 4 - 3x can be found by isolating this expression in the given equation. Subtracting 2 from both sides of the given equation yields 9(4 - 3x) = 8(4 - 3x) + 16. Subtracting 8(4 - 3x) from both sides of this equation yields 9(4 - 3x) - 8(4 - 3x) = 16, which gives 1(4 - 3x) = 16, or 4 - 3x = 16. Therefore, the value of 4 - 3x is 16. Choice A is incorrect and may result from conceptual or calculation errors. Choice B is incorrect. This is the value of x, not 4 - 3x. Choice C is incorrect and may result from conceptual or calculation errors."
+}
+]
+
+

@@ -1,0 +1,106 @@
+[
+  {
+  "id": 1,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+  "A) 15x^6 + 5x^2 - 5x - 35",
+  "B) 15x^3 + 10x^2 + 2",
+  "C) 15x^6 + 5x^2 + 2",
+  "D) 15x^3 + 5x^2 + 2"
+],
+  "image": "/static/March2025_Images/AdvancedMath/EquivalentExpressions/12138_1.png",
+  "difficulty": "easy",
+  "active": "no",
+  "marked": false,
+  "answer": "D) 15x^3 + 5x^2 + 2",
+  "explanation": "Choice D is correct. The given expression can be rewritten as (9x³ + 6x³) + 5x² + 5x + (7-5). Combining like terms in this expression yields 15x³ + 5x² + 5x + 2. Choice A is incorrect and may result from conceptual or calculation errors. Choice B is incorrect and may result from conceptual or calculation errors. Choice C is incorrect and may result from conceptual or calculation errors."
+},
+{
+  "id": 2,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+  "A) 23x(x^2 + 2x + 9)",
+  "B) 9x(23x^2 + 2x^2 + 1)",
+  "C) x(23x^2 + 2x + 9)",
+  "D) 34(x^3 + x^2 + x)"
+],
+  "image": "/static/March2025_Images/AdvancedMath/EquivalentExpressions/12138_1.png",
+  "difficulty": "easy",
+  "active": "no",
+  "marked": false,
+  "answer": "C) x(23x^2 + 2x + 9)",
+  "explanation": "Choice C is correct. Since x is a common factor of each term in the given expression, the given expression can be rewritten as x(23x² + 2x + 9). Choice A is incorrect. This expression is equivalent to 23x³ + 46x² + 207x. Choice B is incorrect. This expression is equivalent to 207x⁴ + 18x³ + 9x. Choice D is incorrect. This expression is equivalent to 34x³ + 34x² + 34x."
+},
+{
+  "id": 3,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+  "A) 3x^2 + 7x + 14b",
+  "B) 3x^2 + 28x + 14b",
+  "C) 3x^2 + 42x + 14b",
+  "D) 3x^2 + 49x + 14b"
+],
+  "image": "/static/March2025_Images/AdvancedMath/EquivalentExpressions/12138_1.png",
+  "difficulty": "hard",
+  "active": "no",
+  "marked": false,
+  "answer": "D) 3x^2 + 49x + 14b",
+  "explanation": "Choice D is correct. Since each choice has a term of 3x², which can be written as (3x)(x), and each choice has a term of 14b, which can be written as (7)(2b), the expression that has a factor of x + 2b, where b is a positive integer constant, can be represented as (3x + 7)(x + 2b). Using the distributive property of multiplication, this expression is equivalent to 3x(x + 2b)+7(x + 2b), or 3x² + 6xb + 7x + 14b. Combining the x-terms in this expression yields 3x²+(7+6b)x+14b. It follows that the coefficient of the x-term is equal to 7+6b. Thus, from the given choices, 7+6b must be equal to 7, 28, 42, or 49. Therefore, 6b must be equal to 0, 21, 35, or 42, respectively, and b must be equal to 0, 21/6, 35/6, or 42/6, respectively. Of these four values of b, only 42/6, or 7, is a positive integer. It follows that 7+6b must be equal to 49 because this is the only choice for which the value of b is a positive integer constant. Therefore, the expression that has a factor of x + 2b is 3x² + 49x + 14b. Choice A is incorrect. If this expression has a factor of x+2b, then the value of b is 0, which isn't positive. Choice B is incorrect. If this expression has a factor of x+2b, then the value of b is 21/6, which isn't an integer. Choice C is incorrect. If this expression has a factor of x+2b, then the value of b is 35/6, which isn't an integer."
+},
+{
+  "id": 4,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+  "A) h^10 / q^14",
+  "B) h^3 / q^3",
+  "C) h^10q^14",
+  "D) h^3q^3"
+],
+  "image": "/static/March2025_Images/AdvancedMath/EquivalentExpressions/12138_1.png",
+  "difficulty": "medium",
+  "active": "no",
+  "marked": false,
+  "answer": "A) h^10 / q^14",
+  "explanation": "Choice A is correct. For positive values of a, a^m/a^n=a^(m-n), where m and n are integers. Since it's given that h > 0 and q > 0, this property can be applied to rewrite the given expression as (h^(15-5))(q^(7-21)), which is equivalent to h^10 q^-14. For positive values of a, a^-n=1/a^n. This property can be applied to rewrite the expression h^10 q^-14 as (h^10)(1/q^14), which is equivalent to h^10/q^14. Choice B is incorrect and may result from conceptual or calculation errors. Choice C is incorrect and may result from conceptual or calculation errors. Choice D is incorrect and may result from conceptual or calculation errors."
+},
+{
+  "id": 5,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+  "A) -26",
+  "B) -26/9",
+  "C) 1/9",
+  "D) 9"
+],
+  "image": "/static/March2025_Images/AdvancedMath/EquivalentExpressions/12138_1.png",
+  "difficulty": "hard",
+  "active": "no",
+  "marked": false,
+  "answer": "C) 1/9",
+  "explanation": "Choice C is correct. Multiplying the given functions f and g yields f(x)·g(x)=(x²+bx)(9x²-27x). Applying the distributive property to the right-hand side of this equation yields f(x)·g(x)=(x²)(9x²-27x)+(bx)(9x²-27x). Applying the distributive property once again to the right-hand side of this equation yields f(x)·g(x)=(x²)(9x²)-(x²)(27x)+(bx)(9x²)-(bx)(27x), which is equivalent to f(x)·g(x)=9x⁴-27x³+9bx³-27bx². Factoring out x³ from the second and third terms yields f(x)·g(x)=9x⁴+(-27+9b)x³-27bx². Since the left-hand sides of f(x)·g(x)=9x⁴+(-27+9b)x³-27bx² and f(x)·g(x)=9x⁴-26x³-3x² are equal, it follows that (-27+9b)x³=-26x³, or -27+9b=-26, and -27bx²=-3x², or -27b=-3. Adding 27 to each side of -27+9b=-26 yields 9b=1. Dividing each side of this equation by 9 yields b=1/9. Similarly, dividing each side of -27b=-3 by -27 yields b=1/9. Therefore, the value of b is 1/9. Choice A is incorrect and may result from conceptual or calculation errors. Choice B is incorrect and may result from conceptual or calculation errors. Choice D is incorrect and may result from conceptual or calculation errors."
+},
+{
+  "id": 6,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+  "A) 16x + 31",
+  "B) 16x + 240",
+  "C) 16x + 1",
+  "D) 16x + 15"
+],
+  "image": "/static/March2025_Images/AdvancedMath/EquivalentExpressions/12138_1.png",
+  "difficulty": "easy",
+  "active": "no",
+  "marked": false,
+  "answer": "B) 16x + 240",
+  "explanation": "Choice B is correct. The expression 16(x + 15) can be rewritten as 16(x)+16(15), which is equivalent to 16x + 240. Choice A is incorrect and may result from conceptual or calculation errors. Choice C is incorrect and may result from conceptual or calculation errors. Choice D is incorrect and may result from conceptual or calculation errors."
+}
+]
+
+

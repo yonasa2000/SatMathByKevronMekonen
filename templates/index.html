@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SAT Math Study</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #f6f8fa;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 700px;
+            margin: 40px auto;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+            padding: 32px 40px;
+        }
+        h1 {
+            color: #2d3748;
+            text-align: center;
+            margin-bottom: 8px;
+        }
+        h2 {
+            color: #4a5568;
+            text-align: center;
+            margin-bottom: 32px;
+        }
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        .main-category {
+            font-size: 1.15em;
+            font-weight: 600;
+            margin: 18px 0 6px 0;
+            color: #3182ce;
+        }
+        .mini-list {
+            margin-left: 24px;
+            margin-bottom: 10px;
+        }
+        .mini-list li {
+            margin: 6px 0;
+        }
+        a {
+            color: #2b6cb0;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+        a:hover {
+            color: #e53e3e;
+            text-decoration: underline;
+        }
+        .btn {
+            background-color: #3182ce;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            padding: 10px 16px;
+            cursor: pointer;
+            font-size: 0.9em;
+            transition: background-color 0.2s;
+        }
+        .btn:hover {
+            background-color: #276749;
+        }
+        .filter-section {
+            border: 3px solid #3182ce;
+            border-radius: 10px;
+            padding: 18px 24px;
+            margin-bottom: 24px;
+            background: #f8fafc;
+            max-width: 680px;
+            width: 95%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .filter-section h3 {
+            margin-top: 0;
+            margin-bottom: 16px;
+            color: #3182ce;
+            font-size: 1.2em;
+            font-weight: 700;
+        }
+        .diff-btn-text {
+            display:inline-block;
+            padding:4px 12px;
+            border-radius:8px;
+            font-weight:600;
+            font-size:0.85em;
+            background:#fff;
+            cursor:pointer;
+            border:2.5px solid;
+            transition:background 0.2s, color 0.2s, border 0.2s;
+        }
+        .diff-easy {
+            color:#38a169;
+            border-color:#38a169;
+        }
+        .diff-medium {
+            color:#ecc94b;
+            border-color:#ecc94b;
+        }
+        .diff-hard {
+            color:#e53e3e;
+            border-color:#e53e3e;
+            background:#fff;
+        }
+        .diff-btn-text.selected.diff-easy {
+            background:#38a169;
+            color:#222 !important;
+            border-color:#38a169 !important;
+        }
+        .diff-btn-text.selected.diff-medium {
+            background:#ecc94b;
+            color:#222 !important;
+            border-color:#ecc94b !important;
+        }
+        .diff-btn-text.selected.diff-hard {
+            background:#e53e3e;
+            color:#222 !important;
+            border-color:#e53e3e !important;
+        }
+        .diff-btn input[type="checkbox"]:focus + .diff-btn-text {
+            box-shadow:0 0 0 2px #3182ce;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>SAT Math Study</h1>
+        <h2>Select a category:</h2>
+        <div class="filter-section">
+            <h3>Filters</h3>
+            <form method="get" action="/" style="margin-bottom:0;">
+                <div style="display:flex; flex-wrap:wrap; align-items:center; gap:32px; margin-bottom:12px;">
+                    <div style="display:inline-flex; align-items:center; gap:8px;">
+                        <label style="margin-right:12px; font-weight:500; display:inline-block; vertical-align:middle; font-size:1.1em;">Difficulty</label>
+                        <div id="difficulty-btns" style="display:inline-flex; gap:8px; vertical-align:middle; margin-right:40px;">
+                            <label class="diff-btn">
+                                <input type="checkbox" name="difficulty" value="easy" {% if 'easy' in selected_difficulties %}checked{% endif %} style="display:none;">
+                                <span class="diff-btn-text diff-easy {% if 'easy' in selected_difficulties %}selected{% endif %}">Easy</span>
+                            </label>
+                            <label class="diff-btn">
+                                <input type="checkbox" name="difficulty" value="medium" {% if 'medium' in selected_difficulties %}checked{% endif %} style="display:none;">
+                                <span class="diff-btn-text diff-medium {% if 'medium' in selected_difficulties %}selected{% endif %}">Medium</span>
+                            </label>
+                            <label class="diff-btn">
+                                <input type="checkbox" name="difficulty" value="hard" {% if 'hard' in selected_difficulties %}checked{% endif %} style="display:none;">
+                                <span class="diff-btn-text diff-hard {% if 'hard' in selected_difficulties %}selected{% endif %}">Hard</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div style="display:inline-flex; align-items:center; gap:8px;">
+                        <label style="font-weight:500; font-size:1em;">Marked for Review</label>
+                        <select name="marked_filter" style="margin-right:12px;">
+                            <option value="all" {% if marked_filter == 'all' %}selected{% endif %}>All</option>
+                            <option value="yes" {% if marked_filter == 'yes' %}selected{% endif %}>Yes</option>
+                            <option value="no" {% if marked_filter == 'no' %}selected{% endif %}>No</option>
+                        </select>
+                    </div>
+                    <div style="display:inline-flex; align-items:center; gap:8px;">
+                        <label style="font-weight:500; font-size:1em;">Active Questions</label>
+                        <select name="bluebook_filter" style="margin-right:12px;">
+                            <option value="both" {% if bluebook_filter == 'both' %}selected{% endif %}>All</option>
+                            <option value="yes" {% if bluebook_filter == 'yes' %}selected{% endif %}>Bluebook Only</option>
+                            <option value="no" {% if bluebook_filter == 'no' %}selected{% endif %}>Exclude Bluebook</option>
+                        </select>
+                    </div>
+                </div>
+                <div style="margin-top:16px; text-align:right;">
+                    <button class="btn" type="submit">Apply</button>
+                </div>
+            </form>
+        </div>
+        <ul>
+            {% for cat in categories %}
+            <li>
+                <span class="main-category"><a href="/category/{{ cat.slug }}">{{ cat.name }}</a></span>
+                {% if cat.mini_categories %}
+                <ul class="mini-list">
+                    {% for mini in cat.mini_categories %}
+                    <li><a href="/category/{{ cat.slug }}/{{ mini.slug }}?{% for d in selected_difficulties %}difficulty={{ d }}&{% endfor %}marked_filter={{ marked_filter }}">{{ mini.name }}</a> <span style="color:#805ad5; font-weight:500;">({{ mini.count }})</span></li>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
+</html>

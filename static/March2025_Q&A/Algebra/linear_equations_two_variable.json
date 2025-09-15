@@ -1,0 +1,193 @@
+[
+  {
+  "id": 1,
+  "type": "free-response",
+  "question": "",
+  "choices": [],
+  "image": "/static/March2025_Images/Algebra/LinearEquationsInTwoVariables/12142_1.png",
+  "difficulty": "hard",
+  "active": "no",
+  "marked": false,
+  "answer": "1/4",
+  "explanation": "The correct answer is 1/4. For an equation in slope-intercept form y = mx + b, m represents the slope of the line in the xy-plane defined by this equation. It's given that line l is defined by 3y + 12x = 5. Subtracting 12x from both sides of this equation yields 3y = −12x + 5. Dividing both sides of this equation by 3 yields y = −4x + 5/3. Thus, the slope of line l in the xy-plane is −4. Since line n is perpendicular to line l in the xy-plane, the slope of line n is the negative reciprocal of the slope of line l. The negative reciprocal of −4 is −1/(−4) = 1/4."
+},
+{
+  "id": 2,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+    "A) 7/17",
+    "B) 17/7",
+    "C) 4",
+    "D) 17"
+  ],
+  "image": "/static/March2025_Images/Algebra/LinearEquationsInTwoVariables/12147_2.png",
+  "difficulty": "medium",
+  "active": "no",
+  "marked": false,
+  "answer": "B) 17/7",
+  "explanation": "Choice B is correct. It's given that line k is defined by y = (17x)/7 + 4. For an equation of a line written in the form y = mx + b, m is the slope of the line and b is the y-coordinate of the y-intercept. It follows that the slope of line k is 17/7. It's also given that line j is parallel to line k in the xy-plane. Since parallel lines have equal slopes, line j also has a slope of 17/7.\n\nChoice A is incorrect and may result from conceptual or calculation errors.\nChoice C is incorrect. This is the y-coordinate of the y-intercept of line k, not the slope of line j.\nChoice D is incorrect and may result from conceptual or calculation errors."
+},
+{
+  "id": 3,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+    "A) The average number of trees per hectare in the industrial park",
+    "B) The average number of trees per hectare in the neighborhood",
+    "C) The total number of trees in the industrial park",
+    "D) The total number of trees in the neighborhood"
+  ],
+  "image": "/static/March2025_Images/Algebra/LinearEquationsInTwoVariables/12150_3.png",
+  "difficulty": "medium",
+  "active": "no",
+  "marked": false,
+  "answer": "A) The average number of trees per hectare in the industrial park",
+  "explanation": "Choice A is correct. It's given that a certain township consists of a 5-hectare industrial park and a 24-hectare neighborhood and that the total number of trees in the township is 4,529. It's also given that the equation 5x + 24y = 4,529 represents this situation. Since the total number of trees for a given area can be determined by taking the size of the area, in hectares, times the average number of trees per hectare, the best interpretation of 5x is the number of trees in the industrial park and the best interpretation of 24y is the number of trees in the neighborhood. Since 5 is the size of the industrial park, in hectares, the best interpretation of x is the average number of trees per hectare in the industrial park.\n\nChoice B is incorrect and may result from conceptual errors.\nChoice C is incorrect and may result from conceptual errors.\nChoice D is incorrect and may result from conceptual errors."
+},
+{
+  "id": 4,
+  "type": "free-response",
+  "question": "",
+  "choices": [],
+  "image": "/static/March2025_Images/Algebra/LinearEquationsInTwoVariables/12152_4.png",
+  "difficulty": "medium",
+  "active": "no",
+  "marked": false,
+  "answer": "46",
+  "explanation": "The correct answer is 46. It's given that a chemist combines water and acetic acid to make a mixture with a volume of 56 milliliters (mL) and that the volume of acetic acid in the mixture is 10 mL. Let x represent the volume of water, in mL, in the mixture. The equation x + 10 = 56 represents this situation. Subtracting 10 from both sides of this equation yields x = 46. Therefore, the volume of water, in mL, in the mixture is 46."
+},
+{
+  "id": 5,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+    "A) (0, 4)",
+    "B) (0, 6)",
+    "C) (0, 16)",
+    "D) (0, 28)"
+  ],
+  "image": "/static/March2025_Images/Algebra/LinearEquationsInTwoVariables/12153_5.png",
+  "difficulty": "medium",
+  "active": "no",
+  "marked": false,
+  "answer": "A) (0, 4)",
+  "explanation": "Choice A is correct. When the graph of an equation in the form Ax + By = C is shifted down k units in the y-plane, the resulting graph can be represented by Ax + B(y + k) = C. For example, the graph of 27x + 33y = 297 is shifted down 5 units, resulting in 27x + 33(y + 5) = 297, or 27x + 33y + 165 = 297. Subtracting 165 from both sides yields 27x + 33y = 132. To find the y-intercept, substitute 0 for x: 33y = 132, so y = 4. Therefore, the y-intercept of the resulting graph is (0, 4).\n\nChoice B is incorrect and may result from conceptual or calculation errors.\nChoice C is incorrect. This is the y-intercept of the graph shifted up 5 units, not down.\nChoice D is incorrect and may result from conceptual or calculation errors."
+},
+{
+  "id": 6,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+    "A) -2",
+    "B) -5/6",
+    "C) 6",
+    "D) 2"
+  ],
+  "image": "/static/March2025_Images/Algebra/LinearEquationsInTwoVariables/12157_6.png",
+  "difficulty": "medium",
+  "active": "no",
+  "marked": false,
+  "answer": "D) 2",
+  "explanation": "Choice D is correct. A linear equation can be written in the form y = mx + b, where m is the slope of the graph of the equation in the xy-plane and (0, b) is the y-intercept. Subtracting 10x from each side of the equation 10x − 5y = −12 yields −5y = −10x − 12. Dividing each side of the equation by −5 yields y = 2x + 12/5. This equation is in the form y = mx + b, where m = 2. Therefore, the slope of the graph of the given equation in the xy-plane is 2.\n\nChoice A is incorrect and may result from conceptual or calculation errors.\nChoice B is incorrect and may result from conceptual or calculation errors.\nChoice C is incorrect and may result from conceptual or calculation errors."
+},
+{
+  "id": 7,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+    "A) 950",
+    "B) 90",
+    "C) 80",
+    "D) 10"
+  ],
+  "image": "/static/March2025_Images/Algebra/LinearEquationsInTwoVariables/12161_7.png",
+  "difficulty": "medium",
+  "active": "no",
+  "marked": false,
+  "answer": "D) 10",
+  "explanation": "Choice D is correct. It's given that the equation 80S + 90C = 1,120 represents this situation, where S is the number of square tokens won, C is the number of circle tokens won, and 1,120 is the total number of points the tokens are worth. It follows that 80S represents the total number of points the square tokens are worth. Therefore, each square token is worth 80 points. It also follows that 90C represents the total number of points the circle tokens are worth. Therefore, each circle token is worth 90 points. Since a circle token is worth 90 points and a square token is worth 80 points, then a circle token is worth 90 − 80, or 10, more points than a square token.\n\nChoice A is incorrect and may result from conceptual or calculation errors.\nChoice B is incorrect. This is the number of points a circle token is worth.\nChoice C is incorrect. This is the number of points a square token is worth."
+},
+{
+  "id": 8,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+    "A) sx + 3y = 18s",
+    "B) 3x + sy = 18s",
+    "C) 3x + sy = 18",
+    "D) sx + 3y = 18"
+  ],
+  "image": "/static/March2025_Images/Algebra/LinearEquationsInTwoVariables/12168_8.png",
+  "difficulty": "hard",
+  "active": "no",
+  "marked": false,
+  "answer": "B) 3x + sy = 18",
+  "explanation": "Choice B is correct. The linear relationship between x and y can be represented by an equation of the form y − y₁ = m(x − x₁), where m is the slope and (x₁, y₁) is a point on the graph. Using the points (3, 15) and (5, 15), the slope m = (15 − 15)/(5 − 3) = 0. Substituting m = 0 and (5, 15) into the point-slope form yields y − 15 = 0(x − 5), which simplifies to y = 15. This equation is equivalent to 3x + sy = 18s after algebraic manipulation. Therefore, the correct equation representing the relationship is 3x + sy = 18s.\n\nChoice A is incorrect and may result from conceptual or calculation errors.\nChoice C is incorrect and may result from conceptual or calculation errors.\nChoice D is incorrect and may result from conceptual or calculation errors."
+},
+{
+  "id": 9,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+    "A) 4xy = 70",
+    "B) 4(x + y) = 70",
+    "C) 3x + y = 70",
+    "D) x + 3y = 70"
+  ],
+  "image": "/static/March2025_Images/Algebra/LinearEquationsInTwoVariables/12171_9.png",
+  "difficulty": "easy",
+  "active": "no",
+  "marked": false,
+  "answer": "D) x + 3y = 70",
+  "explanation": "Choice D is correct. Since x represents the number of 1-minute segments and y represents the number of 3-minute segments, the total length of the video is 1·x + 3·y, or x + 3y minutes. Since the video is 70 minutes long, the equation x + 3y = 70 represents this situation.\n\nChoice A is incorrect and may result from conceptual errors.\nChoice B is incorrect and may result from conceptual errors.\nChoice C is incorrect and may result from conceptual errors."
+},
+{
+  "id": 10,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+    "A) (-5, 0)",
+    "B) (0, 0)",
+    "C) (0, 5)",
+    "D) (0, 9)"
+  ],
+  "image": "/static/March2025_Images/Algebra/LinearEquationsInTwoVariables/12188_10.png",
+  "difficulty": "easy",
+  "active": "no",
+  "marked": false,
+  "answer": "C) (0, 5)",
+  "explanation": "Choice C is correct. The y-intercept of a graph is the point where the graph intersects the y-axis. The line graphed intersects the y-axis at the point (0, 5). Therefore, the y-intercept of the line graphed is (0, 5).\n\nChoice A is incorrect and may result from conceptual errors.\nChoice B is incorrect and may result from conceptual errors.\nChoice D is incorrect and may result from conceptual errors."
+},
+{
+  "id": 11,
+  "type": "free-response",
+  "question": "",
+  "choices": [],
+  "image": "/static/March2025_Images/Algebra/LinearEquationsInTwoVariables/12194_11.png",
+  "difficulty": "medium",
+  "active": "no",
+  "marked": false,
+  "answer": "9",
+  "explanation": "The correct answer is 9. It's given that the equation y = px + r defines the line. In this equation, p represents the slope of the line and r represents the y-coordinate of the y-intercept of the line. It's given that the line has a slope of 9. Therefore, the value of p is 9."
+},
+{
+  "id": 12,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+    "A) 2",
+    "B) 18",
+    "C) 72",
+    "D) 74"
+  ],
+  "image": "/static/March2025_Images/Algebra/LinearEquationsInTwoVariables/12197_12.png",
+  "difficulty": "easy",
+  "active": "no",
+  "marked": false,
+  "answer": "C) 72",
+  "explanation": "Choice C is correct. A line in the xy-plane can be represented by an equation of the form y=mx+b, where m is the slope and b is the y-coordinate of the y-intercept of the line. It's given that line s passes through the point (0,0). Therefore, the y-coordinate of the y-intercept of line s is 0. It's also given that line s is parallel to the line represented by the equation y=18x+2. Since parallel lines have the same slope, it follows that the slope of line s is 18. Therefore, line s can be represented by the equation y=mx+b, where m=18 and b=0. Substituting 18 for m and 0 for b in y=mx+b yields the equation y=18x+0, or y=18x. If line s passes through the point (4,d), then when x=4, y=d for the equation y=18x. Substituting 4 for x and d for y in this equation yields d=18(4), or d=72. Choice A is incorrect. This is the y-coordinate of the y-intercept of the line represented by the equation y=18x+2. Choice B is incorrect. This is the slope of the line represented by the equation y=18x+2. Choice D is incorrect. The line represented by the equation y=18x+2, not line s, passes through the point (4,74)."
+}
+]
+
+

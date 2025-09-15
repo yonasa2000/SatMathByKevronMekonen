@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ category.name }} Questions</title>
+    <style>
+        .check-btn {
+            transition: background 0.2s;
+        }
+        .check-btn.correct {
+            background: #4CAF50; /* green */
+            color: white;
+        }
+        .check-btn.incorrect {
+            background: #F44336; /* red */
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>{{ category.name }}</h1>
+    <a href="/">Back to categories</a>
+    <hr>
+    {% if questions %}
+        {% for q in questions %}
+            <div>
+                <img src="{{ q.image }}" alt="Question Image" style="max-width:400px;">
+                <form class="question-form" data-correct="{{ q.correct_answer }}" onsubmit="return false;">
+                    {% for choice in q.choices %}
+                        <input type="radio" name="answer" value="{{ choice }}"> {{ choice }}<br>
+                    {% endfor %}
+                    <button type="button" class="check-btn">Check</button>
+                </form>
+            </div>
+            <hr>
+        {% endfor %}
+    {% else %}
+        <p>No questions available for this category yet.</p>
+    {% endif %}
+    <script>
+    document.querySelectorAll('.question-form').forEach(function(form) {
+        var btn = form.querySelector('.check-btn');
+        btn.addEventListener('click', function() {
+            var selected = form.querySelector('input[name="answer"]:checked');
+            btn.classList.remove('correct', 'incorrect');
+            if (!selected) {
+                // No answer selected, do nothing
+                return;
+            }
+            var correct = form.getAttribute('data-correct');
+            if (selected.value === correct) {
+                btn.classList.add('correct');
+            } else {
+                btn.classList.add('incorrect');
+            }
+        });
+    });
+    </script>
+</body>
+</html>

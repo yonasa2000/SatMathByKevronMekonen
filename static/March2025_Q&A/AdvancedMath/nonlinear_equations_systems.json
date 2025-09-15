@@ -1,0 +1,245 @@
+
+[
+  {
+  "id": 1,
+  "type": "free-response",
+  "question": "",
+  "choices": [],
+  "image": "/static/March2025_Images/AdvancedMath/NonlinearEquationsSystems/12144_3.png",
+  "difficulty": "hard",
+  "active": "no",
+  "marked": false,
+  "answer": "120",
+  "explanation": "The correct answer is 120. The solutions to a quadratic equation of the form ax² + bx + c = 0 can be calculated using the quadratic formula and are given by x = (-b ± sqrt(b²-4ac))/(2a). The given equation is in the form ax² + bx + c = 0, where a = 2, b = -8, and c = -7. It follows that the solutions to the given equation are x = (8 ± sqrt((-8)²-4(2)(-7)))/(2(2)), which is equivalent to x = (8 ± sqrt(64+56))/4, or x = (8 ± sqrt(120))/4. It's given that one solution to the equation 2x² - 8x - 7 = 0 can be written as (8 - sqrt(k))/4. The solution (8 - sqrt(120))/4 is in this form. Therefore, the value of k is 120."
+},
+{
+  "id": 2,
+  "type": "free-response",
+  "question": "",
+  "choices": [],
+  "image": "/static/March2025_Images/AdvancedMath/NonlinearEquationsSystems/12144_3.png",
+  "difficulty": "hard",
+  "active": "no",
+  "marked": false,
+  "answer": "35/2",
+  "explanation": "The correct answer is 35/2. Subtracting the second equation from the first equation yields (y+k)-(y-k)=x+26-(x²-5x), or 2k=-x²+6x+26. This is equivalent to x²-6x+(2k-26)=0. It's given that the system has exactly one distinct real solution; therefore, this equation has exactly one distinct real solution. An equation of the form ax²+bx+c=0, where a, b, and c are constants, has exactly one distinct real solution when the discriminant, b²-4ac, is equal to 0. The equation x²-6x+(2k-26)=0 is of this form, where a=1, b=-6, and c=2k-26. Substituting these values into the discriminant, b²-4ac, yields (-6)²-4(1)(2k-26). Setting the discriminant equal to 0 yields (-6)²-4(1)(2k-26)=0, or -8k+140=0. Subtracting 140 from both sides of this equation yields -8k=-140. Dividing both sides of this equation by -8 yields k=35/2. Note that 35/2 and 17.5 are examples of ways to enter a correct answer."
+},
+{
+  "id": 3,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+  "A) -4",
+  "B) 0",
+  "C) 3",
+  "D) 5"
+],
+  "image": "/static/March2025_Images/AdvancedMath/NonlinearEquationsSystems/12138_1.png",
+  "difficulty": "medium",
+  "active": "no",
+  "marked": false,
+  "answer": "B) 0",
+  "explanation": "Choice B is correct. Applying the zero product property to the given equation yields 3x = 0, x - 4 = 0, and x + 5 = 0. Dividing each side of the equation 3x = 0 by 3 yields x = 0. Adding 4 to each side of the equation x - 4 = 0 yields x = 4. Subtracting 5 from each side of the equation x + 5 = 0 yields x = -5. Therefore, the solutions to the given equation are 0, 4, and -5. Thus, one of the solutions to the given equation is 0. Choice A is incorrect and may result from conceptual or calculation errors. Choice C is incorrect and may result from conceptual or calculation errors. Choice D is incorrect and may result from conceptual or calculation errors."
+},
+{
+  "id": 4,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+  "A) (-1, 5)",
+  "B) (0, 4)",
+  "C) (1, 5)",
+  "D) (4, 2)"
+],
+  "image": "/static/March2025_Images/AdvancedMath/NonlinearEquationsSystems/12138_1.png",
+  "difficulty": "easy",
+  "active": "no",
+  "marked": false,
+  "answer": "C) (1, 5)",
+  "explanation": "Choice C is correct. The solution to the system of two equations corresponds to the point where the graphs of the equations intersect. The graphs of the linear function and the absolute value function shown intersect at the point (1, 5). Thus, the solution to the system is (1, 5). Choice A is incorrect and may result from conceptual or calculation errors. Choice B is incorrect. This is the y-intercept of the graph of the linear function. Choice D is incorrect. This is the vertex of the graph of the absolute value function."
+},
+{
+  "id": 5,
+  "type": "free-response",
+  "question": "",
+  "choices": [],
+  "image": "/static/March2025_Images/AdvancedMath/NonlinearEquationsSystems/12144_3.png",
+  "difficulty": "hard",
+  "active": "no",
+  "marked": false,
+  "answer": "14",
+  "explanation": "The correct answer is 14. It's given by the first equation of the system of equations that y = -2.5. Substituting -2.5 for y in the second given equation, y = x² + 8x + k, yields -2.5 = x² + 8x + k. Adding 2.5 to both sides of this equation yields 0 = x² + 8x + k + 2.5. A quadratic equation of the form 0 = ax² + bx + c, where a, b, and c are constants, has no real solutions if and only if its discriminant, b²-4ac, is negative. In the equation 0 = x² + 8x + k + 2.5, where k is a positive integer constant, a = 1, b = 8, and c = k + 2.5. Substituting 1 for a, 8 for b, and k + 2.5 for c in b²-4ac yields 8²-4(1)(k + 2.5), or 64-4(k + 2.5). Since this value must be negative, 64-4(k + 2.5) < 0. Adding 4(k + 2.5) to both sides of this inequality yields 64 < 4(k + 2.5). Dividing both sides of this inequality by 4 yields 16 < k + 2.5. Subtracting 2.5 from both sides of this inequality yields 13.5 < k. Since k is a positive integer constant, the least possible value of k is 14."
+},
+{
+  "id": 6,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+  "A) -5/2",
+  "B) -5/4",
+  "C) -4/5",
+  "D) -2/5"
+],
+  "image": "/static/March2025_Images/AdvancedMath/NonlinearEquationsSystems/12138_1.png",
+  "difficulty": "medium",
+  "active": "no",
+  "marked": false,
+  "answer": "C) -4/5",
+  "explanation": "Choice C is correct. Since a product of two factors is equal to 0 if and only if at least one of the factors is 0, either 5x + 4 = 0 or 2x - 5 = 0. Subtracting 4 from each side of the equation 5x + 4 = 0 yields 5x = -4. Dividing each side of this equation by 5 yields x = -4/5. Adding 5 to each side of the equation 2x - 5 = 0 yields 2x = 5. Dividing each side of this equation by 2 yields x = 5/2. It follows that the solutions to the given equation are -4/5 and 5/2. Therefore, -4/5 is a solution to the given equation. Choice A is incorrect and may result from conceptual or calculation errors. Choice B is incorrect and may result from conceptual or calculation errors. Choice D is incorrect and may result from conceptual or calculation errors."
+},
+{
+  "id": 7,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+  "A) 65 / 61",
+  "B) 4",
+  "C) 126",
+  "D) 130"
+],
+  "image": "/static/March2025_Images/AdvancedMath/NonlinearEquationsSystems/12138_1.png",
+  "difficulty": "easy",
+  "active": "no",
+  "marked": false,
+  "answer": "B) 4",
+  "explanation": "Choice B is correct. Subtracting 61 from each side of the given equation yields |p|=4. By the definition of absolute value, if |p|=4, then p=4 or p=-4. Of the given choices, 4 is a solution to the given equation. Choice A is incorrect. This is the quotient, not the difference, of 65 and 61. Choice C is incorrect. This is the sum, not the difference, of 65 and 61. Choice D is incorrect and may result from conceptual or calculation errors."
+},
+{
+  "id": 8,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+  "A) m = 2(n + p) / 7",
+  "B) m = 2(n + p)",
+  "C) m = 2(n + p) - 7",
+  "D) m = 2 - n - p - 7"
+],
+  "image": "/static/March2025_Images/AdvancedMath/NonlinearEquationsSystems/12138_1.png",
+  "difficulty": "easy",
+  "active": "no",
+  "marked": false,
+  "answer": "A) m = 2(n + p) / 7",
+  "explanation": "Choice A is correct. Dividing each side of the given equation by 7 yields m=2(n+p)/7. Choice B is incorrect and may result from conceptual or calculation errors. Choice C is incorrect. This equation is equivalent to 7+m=2(n+p), not 7m=2(n+p). Choice D is incorrect and may result from conceptual or calculation errors."
+},
+{
+  "id": 9,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+  "A) 7",
+  "B) 9",
+  "C) 16",
+  "D) 63"
+],
+  "image": "/static/March2025_Images/AdvancedMath/NonlinearEquationsSystems/12138_1.png",
+  "difficulty": "medium",
+  "active": "no",
+  "marked": false,
+  "answer": "C) 16",
+  "explanation": "Choice C is correct. Since the left-hand side of the given equation has a factor of x + 9 in both the numerator and the denominator, the solution to the given equation can be found by solving the equation x-9=7. Adding 9 to both sides of this equation yields x = 16. Substituting 16 for x in the given equation yields (16+9)(16-9)/(16+9)=7, or 7=7. Therefore, the solution to the given equation is 16. Choice A is incorrect. Substituting 7 for x in the given equation yields (7+9)(7-9)/(7+9)=7, or -2=7, which is false. Choice B is incorrect. Substituting 9 for x in the given equation yields (9+9)(9-9)/(9+9)=7, or 0=7, which is false. Choice D is incorrect. Substituting 63 for x in the given equation yields (63+9)(63-9)/(63+9)=7, or 54=7, which is false."
+},
+{
+  "id": 10,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+  "A) p + r + s",
+  "B) 20(p + r + s)",
+  "C) prs / (pr + ps + rs)",
+  "D) prs / (20p + 20r + 20s)"
+],
+  "image": "/static/March2025_Images/AdvancedMath/NonlinearEquationsSystems/12138_1.png",
+  "difficulty": "hard",
+  "active": "no",
+  "marked": false,
+  "answer": "C) prs / (pr + ps + rs)",
+  "explanation": "Choice C is correct. Multiplying each side of the given equation by 1/20 yields 1/20(20/p)=1/20(20/q-20/r-20/s). Distributing 1/20 on each side of this equation yields 20/20p=20/20q-20/20r-20/20s, or 1/p=1/q-1/r-1/s. Adding 1/r+1/s to each side of this equation yields 1/p+1/r+1/s=1/q. Multiplying 1/p by prs/prs, 1/r by prs/prs, and 1/s by prs/prs yields prs/pr+ps+rs+prs/pr+ps+rs+prs/pr+ps+rs=1/q, which is equivalent to pr+ps+rs/prs=1/q. Since pr+ps+rs/prs=1/q and it's given that p, q, r, and s are positive, it follows that the reciprocals of each side of this equation are also equal. Thus, prs/pr+ps+rs=q, or prs/pr+ps+rs=q. Therefore, prs/pr+ps+rs is equivalent to q. Choice A is incorrect and may result from conceptual or calculation errors. Choice B is incorrect and may result from conceptual or calculation errors. Choice D is incorrect and may result from conceptual or calculation errors."
+},
+{
+  "id": 11,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+  "A) t / 12",
+  "B) t",
+  "C) t + 1/12",
+  "D) 12t"
+],
+  "image": "/static/March2025_Images/AdvancedMath/NonlinearEquationsSystems/12138_1.png",
+  "difficulty": "medium",
+  "active": "no",
+  "marked": false,
+  "answer": "D) 12t",
+  "explanation": "Choice D is correct. Subtracting b from each side of the given equation yields 12t=c-b. Therefore, the expression 12t correctly expresses the value of c-b in terms of t. Choice A is incorrect and may result from conceptual or calculation errors. Choice B is incorrect and may result from conceptual or calculation errors. Choice C is incorrect and may result from conceptual or calculation errors."
+},
+{
+  "id": 12,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+  "A) y = 57x + p",
+  "B) y = px + 57",
+  "C) y = 57px",
+  "D) y = px / 57"
+],
+  "image": "/static/March2025_Images/AdvancedMath/NonlinearEquationsSystems/12138_1.png",
+  "difficulty": "easy",
+  "active": "no",
+  "marked": false,
+  "answer": "B) y = px + 57",
+  "explanation": "Choice B is correct. Adding 57 to each side of the given equation yields y=px+57. Therefore, the equation y=px+57 correctly expresses y in terms of p and x. Choice A is incorrect and may result from conceptual errors. Choice C is incorrect and may result from conceptual errors. Choice D is incorrect and may result from conceptual errors."
+},
+{
+  "id": 13,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+  "A) (0, 8)",
+  "B) (7/2, 9/2)",
+  "C) (-7/2, 9/2)",
+  "D) (-3, 4)"
+],
+  "image": "/static/March2025_Images/AdvancedMath/NonlinearEquationsSystems/12138_1.png",
+  "difficulty": "easy",
+  "active": "no",
+  "marked": false,
+  "answer": "C) (-7/2, 9/2)",
+  "explanation": "Choice C is correct. The solution to a system of two equations corresponds to the point where the graphs of the equations intersect. The graphs of the linear function and the absolute value function shown intersect at a point with an x-coordinate between -4 and -3 and a y-coordinate between 4 and 5. Of the given choices, only (-7/2, 9/2) has an x-coordinate between -4 and -3 and a y-coordinate between 4 and 5. Choice A is incorrect. This is the y-intercept of the graph of the linear function. Choice B is incorrect and may result from conceptual or calculation errors. Choice D is incorrect. This is the vertex of the graph of the absolute value function."
+},
+{
+  "id": 14,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+  "A) 12tw",
+  "B) 6(t - w)",
+  "C) (w - t) / 6tw",
+  "D) 6tw / (w - t)"
+],
+  "image": "/static/March2025_Images/AdvancedMath/NonlinearEquationsSystems/12138_1.png",
+  "difficulty": "hard",
+  "active": "no",
+  "marked": false,
+  "answer": "D) 6tw / (w - t)",
+  "explanation": "Choice D is correct. Adding 2/t to each side of the given equation yields 12/n=-2/w+2/t. The fractions on the right side of this equation have a common denominator of tw; therefore, the equation can be written as 12/n=2w/tw-2t/tw, or 12/n=2w-2t/tw, which is equivalent to 12/n=2(w-t)/tw. Dividing each side of this equation by 2 yields 6/n=w-t/tw. Since n, t, w, and w-t are all positive quantities, taking the reciprocal of each side of the equation 6/n=w-t/tw yields an equivalent equation: n/6=tw/w-t. Multiplying each side of this equation by 6 yields n=6tw/w-t. Choice A is incorrect and may result from conceptual or calculation errors. Choice B is incorrect and may result from conceptual or calculation errors. Choice C is incorrect. This is equivalent to 1/n rather than n."
+},
+{
+  "id": 15,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+  "A) 146 / 5",
+  "B) -12",
+  "C) 0",
+  "D) 26 / 5"
+],
+  "image": "/static/March2025_Images/AdvancedMath/NonlinearEquationsSystems/12138_1.png",
+  "difficulty": "hard",
+  "active": "no",
+  "marked": false,
+  "answer": "D) 26 / 5",
+  "explanation": "Choice D is correct. By the definition of absolute value, if |-5x+13|=73, then -5x+13=73 or -5x+13=-73. Subtracting 13 from both sides of the equation -5x+13=73 yields -5x=60. Dividing both sides of this equation by -5 yields x=-12. Subtracting 13 from both sides of the equation -5x+13=-73 yields -5x=-86. Dividing both sides of this equation by -5 yields x=86/5. Therefore, the solutions to the given equation are -12 and 86/5, and it follows that the sum of the solutions to the given equation is -12+86/5, or 26/5. Choice A is incorrect and may result from conceptual or calculation errors. Choice B is incorrect. This is a solution, not the sum of the solutions, to the given equation. Choice C is incorrect and may result from conceptual or calculation errors."
+}
+]
+
+

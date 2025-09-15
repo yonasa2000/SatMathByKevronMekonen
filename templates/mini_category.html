@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .check-btn {
+            background: #3182ce;
+            color: #fff;
+            border: none;
+            border-radius: 6px;
+            padding: 8px 18px;
+            font-size: 1em;
+            margin: 0 6px;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .check-btn.correct {
+            background: #4CAF50 !important; /* green */
+            color: white !important;
+        }
+        .check-btn.incorrect {
+            background: #F44336 !important; /* red */
+            color: white !important;
+        }
+    </style>
+    <title>{{ mini_category.name }} | {{ main_category.name }} | SAT Math Study</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #f6f8fa;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 700px;
+            margin: 40px auto;
+            background: #fff;
+            border-radius: 14px;
+            box-shadow: 0 4px 18px rgba(0,0,0,0.10);
+            padding: 40px 48px;
+        }
+        h1 {
+            color: #2d3748;
+            text-align: center;
+            margin-bottom: 8px;
+        }
+        h2 {
+            color: #4a5568;
+            text-align: center;
+            margin-bottom: 32px;
+        }
+        .question {
+            margin-bottom: 36px;
+            padding: 24px;
+            border-radius: 10px;
+            background: #f1f5f9;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+        }
+        .question-title {
+            font-size: 1.6em;
+            font-weight: 600;
+            margin-bottom: 16px;
+            color: #2b6cb0;
+        }
+        img {
+            max-width: 420px;
+            display: block;
+            margin-bottom: 14px;
+            border-radius: 8px;
+            box-shadow: 0 1px 6px rgba(0,0,0,0.08);
+        }
+        .choices {
+            margin-bottom: 16px;
+        }
+        .choices input[type="radio"] {
+            margin-right: 8px;
+        }
+        .free-response {
+            margin-bottom: 16px;
+        }
+        .feedback-correct {
+            color: #38a169;
+            font-size: 1.1em;
+        }
+        .feedback-incorrect {
+            color: #e53e3e;
+            font-size: 1.1em;
+        }
+        .btn {
+            background: #3182ce;
+            color: #fff;
+            border: none;
+            border-radius: 6px;
+            padding: 8px 18px;
+            font-size: 1em;
+            margin: 0 6px;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .btn:disabled {
+            background: #a0aec0;
+            cursor: not-allowed;
+        }
+        .marked {
+            color: #e53e3e;
+            font-weight: bold;
+        }
+        .last-attempt {
+            background: #ebf8ff;
+            border-radius: 8px;
+            padding: 16px;
+            margin-bottom: 24px;
+            box-shadow: 0 1px 6px rgba(0,0,0,0.04);
+        }
+        .mark-btn-gold {
+            background: gold !important;
+            color: #2d3748 !important;
+            border: 2px solid #e2e8f0;
+        }
+        .mark-btn-gray {
+            background: #cbd5e1 !important;
+            color: #4a5568 !important;
+            border: 2px solid #e2e8f0;
+        }
+        .diff-easy { color: #38a169; font-weight: 600; }
+        .diff-medium { color: #ecc94b; font-weight: 600; }
+        .diff-hard { color: #e53e3e; font-weight: 600; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>{{ mini_category.name }}</h1>
+        <h2>{{ main_category.name }}</h2>
+        <a href="/?{{ 'difficulty=' + request.args.getlist('difficulty')|join('&difficulty=') if request.args.getlist('difficulty') else '' }}{% if request.args.get('marked_filter') %}&marked_filter={{ request.args.get('marked_filter') }}{% endif %}">Back to categories</a>
+        <hr>
+        {% if question %}
+            <div class="question" style="background-color: #fff;">
+                <div style="display:flex; align-items:top; gap:8px; font-weight: bold;">
+                    <span>{{ question.id }})</span>
+                    {% if question.image %}
+                        <img src="{{ question.image }}" alt="Question Image" style="width:100%; height:auto; max-width:100%; border-radius:8px; box-shadow:0 1px 6px rgba(0,0,0,0.08);">
+                    {% endif %}
+                </div>
+                {% if question.question %}
+                    <div class="question-title">{{ question.question }}</div>
+                {% endif %}              
+                <form method="post" style="position:relative; min-height:120px;">
+                    {% for d in request.args.getlist('difficulty') %}
+                        <input type="hidden" name="difficulty" value="{{ d }}">
+                    {% endfor %}
+                    {% if question.type == 'multiple-choice' %}
+                        <div class="choices">
+                            {% for choice in question.choices %}
+                                <input type="radio" name="answer" value="{{ choice }}" {% if answers[current_index] == choice %}checked{% endif %}> {{ choice }}<br>
+                            {% endfor %}
+                        </div>
+                    {% elif question.type == 'free-response' %}
+                        <div class="free-response">
+                            <label>Answer:</label>
+                            <input type="text" name="answer" value="{{ answers[current_index] if answers[current_index] }}">
+                        </div>
+                    {% endif %}
+                    <div style="position:absolute; top:0; right:0; display:flex; align-items:center; gap:8px;">
+                        <span style="font-size:1em; color:#805ad5; font-weight:500;">Mark for review:</span>
+                        {% set mark_class = 'mark-btn-gold' if marked[current_index] else 'mark-btn-gray' %}
+                        <button class="btn mark-btn {{ mark_class }}" type="submit" name="action" value="toggle_marked" title="Mark for Review">&#10003;</button>
+                    </div>
+                    <div style="position:absolute; bottom:0; left:0;">
+                        <button class="btn" type="submit" name="action" value="prev" {% if current_index == 0 %}disabled{% endif %}>Previous</button>
+                    </div>
+                    <div style="position:absolute; bottom:0; right:0;">
+                        <button class="btn" type="submit" name="action" value="next" {% if current_index == total - 1 %}disabled{% endif %}>Next</button>
+                    </div>
+                    <div style="text-align:center; margin-top:24px;">
+                        <button type="button" class="check-btn">Check</button>
+                        <button type="button" class="btn explanation-btn" style="margin-left:12px;">Explanation</button>
+                    </div>
+                </form>
+                <div class="check-feedback" style="margin-top:10px; font-weight:bold;"></div>
+                <div class="explanation-popup" style="display:none; margin-top:16px; padding:16px; background:#fefcbf; border-radius:8px; color:#2d3748; font-size:1.1em; box-shadow:0 2px 8px rgba(0,0,0,0.08);">
+                    {{ question.explanation if question.explanation else 'No explanation provided for this question.' }}
+                </div>
+                <div style="margin-top:10px;">
+                    Difficulty: 
+                    {% set diff_class = 'diff-easy' if question.difficulty == 'easy' else ('diff-medium' if question.difficulty == 'medium' else ('diff-hard' if question.difficulty == 'hard' else '')) %}
+                    <span class="{{ diff_class }}">{{ question.difficulty|capitalize }}</span>
+                    | Source: <span style="color:#2b6cb0;">{{ question.source|capitalize }}</span>
+                </div>
+            </div>
+        {% else %}
+            <p>No questions available for this mini-category yet.</p>
+        {% endif %}
+    </div>
+</body>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var form = document.querySelector('.question form');
+        var btn = form.querySelector('.check-btn');
+        var feedbackDiv = document.querySelector('.check-feedback');
+        var explanationBtn = form.querySelector('.explanation-btn');
+        var explanationPopup = document.querySelector('.explanation-popup');
+        btn.addEventListener('click', function() {
+            var selected = form.querySelector('input[name="answer"]:checked') || form.querySelector('input[name="answer"]');
+            btn.classList.remove('correct', 'incorrect');
+            feedbackDiv.textContent = '';
+            if (!selected || (selected.type === 'text' && !selected.value)) {
+                // No answer selected, do nothing
+                return;
+            }
+            var correct = "{{ question.answer|e }}";
+            var userAnswer = selected.type === 'text' ? selected.value : selected.value;
+            if (userAnswer === correct) {
+                btn.classList.add('correct');
+                btn.textContent = 'Correct';
+                feedbackDiv.textContent = '';
+            } else {
+                btn.classList.add('incorrect');
+                btn.textContent = 'Incorrect';
+                feedbackDiv.textContent = '';
+            }
+        });
+        explanationBtn.addEventListener('click', function() {
+            if (explanationPopup.style.display === 'none') {
+                explanationPopup.style.display = 'block';
+                explanationBtn.textContent = 'Hide Explanation';
+            } else {
+                explanationPopup.style.display = 'none';
+                explanationBtn.textContent = 'Explanation';
+            }
+        });
+    });
+    </script>
+</html>

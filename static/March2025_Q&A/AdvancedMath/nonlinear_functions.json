@@ -1,0 +1,492 @@
+[
+  {
+  "id": 1,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+  "A) The estimated value of the tablet was $225 when it was purchased.",
+  "B) The estimated value of the tablet 24 months after it was purchased was $225.",
+  "C) The estimated value of the tablet had decreased by $225 in the 24 months after it was purchased.",
+  "D) The estimated value of the tablet decreased by approximately 2.25% each year after it was purchased."
+],
+  "image": "/static/March2025_Images/AdvancedMath/NonlinearFunctions/12138_1.png",
+  "difficulty": "easy",
+  "active": "no",
+  "marked": false,
+  "answer":  "A) The estimated value of the tablet was $225 when it was purchased.",
+  "explanation": "Choice A is correct. It's given that the graph shown gives the estimated value y, in dollars, of a tablet as a function of the number of months since it was purchased, x. The y-intercept of a graph is the point at which the graph intersects the y-axis, or when x is 0. The graph shown intersects the y-axis at the point (0, 225). It follows that 0 months after the tablet was purchased, or when the tablet was purchased, the estimated value of the tablet was 225 dollars. Therefore, the best interpretation of the y-intercept is that the estimated value of the tablet was $225 when it was purchased. Choice B is incorrect. The estimated value of the tablet 24 months after it was purchased was $50, not $225. Choice C is incorrect. The estimated value of the tablet had decreased by $225 - $50, or $175, not $225, in the 24 months after it was purchased. Choice D is incorrect and may result from conceptual errors."
+},
+{
+  "id": 2,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [],
+  "image": "/static/March2025_Images/AdvancedMath/NonlinearFunctions/12138_1.png",
+  "difficulty": "easy",
+  "active": "no",
+  "marked": false,
+  "answer": "",
+  "explanation": "Choice A is correct. When a graph is translated up 4 units, each point on the resulting graph is 4 units above the point on the original graph. In other words, the y-value of each point on the graph increases by 4. The graph shown passes through the points (1, -1), (2, -2), and (3, -1). It follows that when the graph shown is translated up 4 units, the resulting graph will pass through the points (1, -1 + 4), (2, -2 + 4), and (3, -1 + 4). These points are (1, 3), (2, 2), and (3, 3), respectively. Of the given choices, only the graph in choice A passes through the points (1, 3), (2, 2), and (3, 3). Choice B is incorrect. This is the result of translating the graph down, rather than up, 4 units. Choice C is incorrect. This is the result of translating the graph left, rather than up, 4 units. Choice D is incorrect. This is the result of translating the graph right, rather than up, 4 units."
+},
+{
+  "id": 3,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+  "A) I only",
+  "B) II only",
+  "C) I and II",
+  "D) Neither I nor II"
+],
+  "image": "/static/March2025_Images/AdvancedMath/NonlinearFunctions/12138_1.png",
+  "difficulty": "hard",
+  "active": "no",
+  "marked": false,
+  "answer": "D) Neither I nor II",
+  "explanation": "Choice D is correct. A y-intercept of a graph in the xy-plane is a point where the graph intersects the y-axis, or a point where x=0. Substituting 0 for x in the equation defining function f yields f(0)=a(2.2^0+2.2^b), or f(0)=a(1+2.2^b). So, the y-coordinate of the y-intercept of the graph is a(1+2.2^b), or equivalently, a+a(2.2^b). It's given that function g is equivalent to function f, where 0<a<b. It follows that k=2.2^b. Since a(2.2^b) can't be equal to 0, the coefficient a can't be equal to a+a(2.2^b). Since 0<a, the constant k, which is equal to 2.2^b, can't be equal to a+a(2.2^b). Therefore, function g doesn't display the y-coordinate of the y-intercept of the graph of y=f(x) in the xy-plane as a constant or coefficient. It's also given that function h is equivalent to function f, where 0<a<b. The equation defining f can be rewritten as f(x)=a(2.2^x)+a(2.2^b). It follows that m=a(2.2^b). Since a(2.2^b) can't be equal to 0, the coefficient a can't be equal to a+a(2.2^b). Since 0<a, the constant m, which is equal to a(2.2^b), can't be equal to a+a(2.2^b). Therefore, function h doesn't display the y-coordinate of the y-intercept of the graph of y=f(x) in the xy-plane as a constant or coefficient. Thus, neither function g nor function h displays the y-coordinate of the y-intercept of the graph of y=f(x) in the xy-plane as a constant or coefficient. Choice A is incorrect and may result from conceptual or calculation errors. Choice B is incorrect and may result from conceptual or calculation errors. Choice C is incorrect and may result from conceptual or calculation errors."
+},
+{
+  "id": 4,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+  "A) This toy rocket reaches an estimated maximum height of 502 feet 16 seconds after it is launched into the air.",
+  "B) This toy rocket reaches an estimated maximum height of 502 feet 5.6 seconds after it is launched into the air.",
+  "C) This toy rocket reaches an estimated maximum height of 16 feet 502 seconds after it is launched into the air.",
+  "D) This toy rocket reaches an estimated maximum height of 5.6 feet 502 seconds after it is launched into the air."
+],
+  "image": "/static/March2025_Images/AdvancedMath/NonlinearFunctions/12138_1.png",
+  "difficulty": "medium",
+  "active": "no",
+  "marked": false,
+  "answer": "B) This toy rocket reaches an estimated maximum height of 502 feet 5.6 seconds after it is launched into the air.",
+  "explanation": "Choice B is correct. The vertex of the graph of a quadratic equation is where it reaches its minimum or maximum value. When a quadratic equation is written in the form y = a(x - h)² + k, the vertex of the parabola represented by the equation is (x, y) = (h, k). In the given equation y = -16(x - 5.6)² + 502, the value of h is 5.6 and the value of k is 502. It follows that the vertex of the graph of this equation in the xy-plane is (x, y) = (5.6, 502). Additionally, since a = -16 in the given equation, the graph of the quadratic equation opens down, and the vertex represents a maximum. It's given that the value of y represents the estimated height, in feet, of the toy rocket x seconds after it is launched into the air. Therefore, this toy rocket reaches an estimated maximum height of 502 feet 5.6 seconds after it is launched into the air. Choice A is incorrect. The 16 in the equation is an indicator of how narrow the graph of the equation is rather than where it reaches its maximum. Choice C is incorrect. The 16 in the equation is an indicator of how narrow the graph of the equation is rather than where it reaches its maximum. Choice D is incorrect. This is an interpretation of the vertex of the graph of the equation y = -16(x - 502)² + 5.6, not of the equation y = -16(x - 5.6)² + 502."
+},
+{
+  "id": 5,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+  "A) g(x) = -25^x",
+  "B) g(x) = -(1/25)^x",
+  "C) g(x) = 25^x",
+  "D) g(x) = (1/25)^x"
+],
+  "image": "/static/March2025_Images/AdvancedMath/NonlinearFunctions/12138_1.png",
+  "difficulty": "medium",
+  "active": "no",
+  "marked": false,
+  "answer": "D) g(x) = (1/25)^x",
+  "explanation": "Choice D is correct. It's given that function g is exponential. Therefore, an equation defining g can be written in the form g(x)=a(b)^x, where a and b are constants. The table shows that when x=0, g(x)=1. Substituting 0 for x and 1 for g(x) in the equation g(x)=a(b)^x yields 1=a(b)^0, which is equivalent to 1=a. Substituting 1 for a in the equation g(x)=a(b)^x yields g(x)=(b)^x. The table also shows that when x=1, g(x)=1/25. Substituting 1 for x and 1/25 for g(x) in the equation g(x)=(b)^x yields 1/25=(b)^1, which is equivalent to 1/25=b. Substituting 1/25 for b in the equation g(x)=(b)^x yields g(x)=(1/25)^x. Choice A is incorrect. For this function, g(1) is equal to -25, not 1/25. Choice B is incorrect. For this function, g(1) is equal to -1/25, not 1/25. Choice C is incorrect. For this function, g(1) is equal to 25, not 1/25."
+},
+{
+  "id": 6,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+  "A) h(x) = 1.12(0.23)^x",
+  "B) h(x) = 1.12(1.23)^x",
+  "C) h(x) = 1.23(0.12)^x",
+  "D) h(x) = 1.23(1.12)^x"
+],
+  "image": "/static/March2025_Images/AdvancedMath/NonlinearFunctions/12138_1.png",
+  "difficulty": "easy",
+  "active": "no",
+  "marked": false,
+  "answer": "D) h(x) = 1.23(1.12)^x",
+  "explanation": "Choice D is correct. The table shows an increasing exponential relationship between the number of years, x, since Hana started training in pole vault and the estimated height h(x), in meters, of her best pole vault for that year. The relationship can be written as h(x)=Ca^x, where C and a are positive constants. It's given that when x=0, h(x)=1.23. Substituting 0 for x and 1.23 for h(x) in h(x)=Ca^x yields 1.23=Ca^0, or 1.23=C. Substituting 1.23 for C in h(x)=Ca^x yields h(x)=1.23a^x. It's also given that when x=2, h(x)=1.54. Substituting 2 for x and 1.54 for h(x) in h(x)=1.23a^x yields 1.54=1.23a². Dividing each side of this equation by 1.23 yields 1.54/1.23=1.23a²/1.23, or a² is approximately equal to 1.252. Since a is positive, a is approximately equal to sqrt(1.252), or 1.12. Substituting 1.12 for a in h(x)=1.23a^x yields h(x)=1.23(1.12)^x. Choice A is incorrect. When x=0, the value of h(x) in this function is equal to 1.12 rather than 1.23, and it is decreasing rather than increasing. Choice B is incorrect. When x=0, the value of h(x) in this function is equal to 1.12 rather than 1.23. Choice C is incorrect. This function is decreasing rather than increasing."
+},
+{
+  "id": 7,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+  "A) 46",
+  "B) 45",
+  "C) 44",
+  "D) -1"
+],
+  "image": "/static/March2025_Images/AdvancedMath/NonlinearFunctions/12138_1.png",
+  "difficulty": "easy",
+  "active": "no",
+  "marked": false,
+  "answer": "B) 45",
+  "explanation": "Choice B is correct. It's given that f(x)=(x-44)(x-46), which can be rewritten as f(x)=x^2-90x + 2,024. Since the coefficient of the x^2-term is positive, the graph of y = f(x) in the xy-plane opens upward and reaches its minimum value at its vertex. For an equation in the form f(x)=ax^2 + bx + c, where a, b, and c are constants, the x-coordinate of the vertex is -b/2a. For the equation f(x)=x^2-90x + 2,024, a=1, b=-90, and c = 2,024. It follows that the x-coordinate of the vertex is -(-90)/2(1), or 45. Therefore, f(x) reaches its minimum when the value of x is 45. Choice A is incorrect. This is one of the x-coordinates of the x-intercepts of the graph of y = f(x) in the xy-plane. Choice C is incorrect. This is one of the x-coordinates of the x-intercepts of the graph of y = f(x) in the xy-plane. Choice D is incorrect. This is the y-coordinate of the vertex of the graph of y = f(x) in the xy-plane."
+},
+{
+  "id": 8,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+  "A) 2",
+  "B) 790",
+  "C) 1,580",
+  "D) 40,000"
+],
+  "image": "/static/March2025_Images/AdvancedMath/NonlinearFunctions/12138_1.png",
+  "difficulty": "easy",
+  "active": "no",
+  "marked": false,
+  "answer": "B) 70",
+  "explanation": "Choice B is correct. It's given that t minutes after an initial observation, the number of bacteria in a population is 40000(2)t/70. This expression consists of the initial number of bacteria, 40000, multiplied by the expression 2t/70. The time, in minutes, it takes for the number of bacteria to double is the increase in the value of t that causes the expression 2t/70 to double. Since the base is 2, the expression 2t/70 will double when the exponent increases by 1. Since the exponent of this expression is t/70, the exponent will increase by 1 when t increases by 70. Therefore, the time, in minutes, it takes for the number of bacteria in the population to double is 70. Choice A is incorrect. This is the base of the exponent, not the time it takes for the number of bacteria in the population to double. Choice C is incorrect. This is the number of minutes it takes for the population to double twice. Choice D is incorrect. This is the number of bacteria that are initially observed, not the time it takes for the number of bacteria in the population to double."
+},
+{
+  "id": 9,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+  "A) 5/8",
+  "B) 25/8",
+  "C) 5",
+  "D) 25"
+],
+  "image": "/static/March2025_Images/AdvancedMath/NonlinearFunctions/12138_1.png",
+  "difficulty": "easy",
+  "active": "no",
+  "marked": false,
+  "answer": "C) 5",
+  "explanation": "Choice C is correct. It's given that the function g is defined by g(x)=√8z+1. Substituting 3 for z in the given function yields g(3)= √8(3)+1, which is equivalent to g(3)= √25, or g(3) 5. Therefore, the value of g(3) is 5. Choice A is incorrect and may result from conceptual or calculation errors. Choice B is incorrect and may result from conceptual or calculation errors. Choice D is incorrect. This is the value of 8(3)+1, not √8(3)+1."
+},
+{
+  "id": 10,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+  "A) f(x) = 22(1.5)^{x+1}",
+  "B) f(x) = 33(1.5)^x",
+  "C) f(x) = 49.5(1.5)^{x-1}",
+  "D) f(x) = 74.25(1.5)^{x-2}"
+],
+  "image": "/static/March2025_Images/AdvancedMath/NonlinearFunctions/12138_1.png",
+  "difficulty": "easy",
+  "active": "no",
+  "marked": false,
+  "answer": "B) f(x) = 33(1.5)^x",
+  "explanation": "Choice B is correct. Each of the given choices is an equation of the form f(x)= a(b)k, where a, b, and k are constants. For an equation of this form, the coefficient, a, is equal to the value of the function when the exponent is equal to 0, or when zk. It follows that in the equation f(x)= 33(1.5), the coefficient, 33, is equal to the value of f(0). Substituting 0 for z in this equation yields f(0)= 33(1.5), which is equivalent to f(0)= 33(1), or f(0)= 33. Thus, the value of c is 33 and the equation f(x)= 33(1.5) shows the value of c as the coefficient. Choice A is incorrect. This equation shows the value of f(-1), not f(0), as the coefficient. Choice C is incorrect. This equation shows the value of f(1), not f(0), as the coefficient. Choice D is incorrect. This equation shows the value of f(2), not f(0), as the coefficient."
+},
+{
+  "id": 11,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+  "A) The estimated percent decrease in the population for this species and area every 8 years after 2008",
+  "B) The estimated percent decrease in the population for this species and area each year after 2008",
+  "C) The estimated population for this species and area 8 years after 2008",
+  "D) The estimated initial population for this species and area in 2008"
+],
+  "image": "/static/March2025_Images/AdvancedMath/NonlinearFunctions/12138_1.png",
+  "difficulty": "easy",
+  "active": "no",
+  "marked": false,
+  "answer": "D) The estimated initial population for this species and area in 2008",
+  "explanation": "Choice D is correct. Substituting 0 for x in the given equation yields f(0)= 3,000(0.75)^0, which is equivalent to f(0)= 3,000(1), or f(0)= 3,000. It's given that the function estimates the species' population z years after 2008, so it follows that the estimated population of the species is 3,000 in 2008. Therefore, the best interpretation of 3,000 in this context is the estimated initial population for this species and area in 2008. Choice A is incorrect and may result from conceptual errors. Choice B is incorrect. The estimated percent decrease in the population for this species and area each year after 2008 is 25%, not 3,000. Choice C is incorrect. The estimated population for this species and area 8 years after 2008 is 3,000(0.75)^8, or approximately 300, not 3,000."
+},
+{
+  "id": 12,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+  "A) 0 = x^2 - 24x - 2,661",
+  "B) 0 = x^2 - 24x + 2,661",
+  "C) 0 = x^2 + 24x - 2,661",
+  "D) 0 = x^2 + 24x + 2,661"
+],
+  "image": "/static/March2025_Images/AdvancedMath/NonlinearFunctions/12138_1.png",
+  "difficulty": "easy",
+  "active": "no",
+  "marked": false,
+  "answer": "A) 0 = x^2 - 24x - 2,661",
+  "explanation": "Choice A is correct. It's given that the banner's length x, in inches, is 24 inches longer than its width, in inches. It follows that the banner's width, in inches, can be represented by the expression x - 24. The area of a rectangle is the product of its length and its width. It's given that the area of the banner is 2,661 square inches, so it follows that 2,661 = x(x - 24), or 2,661 = x^2 - 24x. Subtracting 2,661 from each side of this equation yields 0 = x^2 - 24x - 2,661. Therefore, the equation that represents this situation is 0 = x^2 - 24x - 2,661. Choice B is incorrect and may result from representing the width, in inches, of the banner as 24 - x. rather than x - 24. Choice C is incorrect and may result from representing the width, in inches, of the banner as x + 24. rather than x - 24. Choice D is incorrect and may result from conceptual or calculation errors."
+},
+{
+  "id": 13,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+  "A) 7.25",
+  "B) 14.50",
+  "C) 105.13",
+  "D) 210.25"
+],
+  "image": "/static/March2025_Images/AdvancedMath/NonlinearFunctions/12138_1.png",
+  "difficulty": "easy",
+  "active": "no",
+  "marked": false,
+  "answer": "B) 14.50",
+  "explanation": "Choice B is correct. It's given that the function h estimates that the object is 3364 feet above the ground when it's dropped at t = 0. Substituting 3364 for h(t) and 0 for t in the function h yields 3364 = -16(0)^2 + b, or 3364 = b. Substituting 3364 for b in the function h yields h(t)=-16t^2 + 3364. When the object hits the ground, its height will be 0 feet above the ground. Substituting 0 for h(t) in h(t)=-16t^2 + 3364 yields 0 = -16t^2 + 3364. Adding 16t^2 to each side of this equation yields 16t^2 = 3364. Dividing each side of this equation by 16 yields t^2 = 210.25. Since the object will hit the ground at a positive number of seconds after it's dropped, the value of t can be found by taking the positive square root of each side of this equation, which yields t = 14.50. It follows that the function estimates the object will hit the ground approximately 14.50 seconds after being dropped. Choice A is incorrect. The function estimates that 7.25 seconds after being dropped, the object's height will be -16(7.25)^2 + 3364 feet, or 2523 feet, above the ground. Choice C is incorrect and may result from conceptual or calculation errors. Choice D is incorrect and may result from conceptual or calculation errors."
+},
+{
+  "id": 14,
+  "type": "free-response",
+  "question": "",
+  "choices": [],
+  "image": "/static/March2025_Images/AdvancedMath/NonlinearFunctions/12144_3.png",
+  "difficulty": "medium",
+  "active": "no",
+  "marked": false,
+  "answer": "",
+  "explanation": "The correct answer is 77. It's given that the function f is defined by f(x)=x^2+x+71. Substituting 2 for x in function f yields f(2)=2^2+2+71, which is equivalent to f(2)=4+2+71, or f(2)=77. Therefore, the value of f(2) is 77."
+},
+{
+  "id": 15,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [],
+  "image": "/static/March2025_Images/AdvancedMath/NonlinearFunctions/12138_1.png",
+  "difficulty": "easy",
+  "active": "no",
+  "marked": false,
+  "answer": "",
+  "explanation": ""
+},
+{
+  "id": 16,
+  "type": "free-response",
+  "question": "",
+  "choices": [],
+  "image": "/static/March2025_Images/AdvancedMath/NonlinearFunctions/12144_3.png",
+  "difficulty": "medium",
+  "active": "no",
+  "marked": false,
+  "answer": "",
+  "explanation": ""
+},
+{
+  "id": 17,
+  "type": "free-response",
+  "question": "",
+  "choices": [],
+  "image": "/static/March2025_Images/AdvancedMath/NonlinearFunctions/12144_3.png",
+  "difficulty": "medium",
+  "active": "no",
+  "marked": false,
+  "answer": "",
+  "explanation": ""
+},
+{
+  "id": 18,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+  "A) p = 0.96(15,000)^x",
+  "B) p = 1.04(15,000)^x",
+  "C) p = 15,000(0.96)^x",
+  "D) p = 15,000(1.04)^x"
+],
+  "image": "/static/March2025_Images/AdvancedMath/NonlinearFunctions/12138_1.png",
+  "difficulty": "easy",
+  "active": "no",
+  "marked": false,
+  "answer": "",
+  "explanation": ""
+},
+{
+  "id": 19,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+  "A) 67",
+  "B) 35",
+  "C) 32",
+  "D) 27"
+],
+  "image": "/static/March2025_Images/AdvancedMath/NonlinearFunctions/12138_1.png",
+  "difficulty": "easy",
+  "active": "no",
+  "marked": false,
+  "answer": "",
+  "explanation": ""
+},
+{
+  "id": 20,
+  "type": "free-response",
+  "question": "",
+  "choices": [],
+  "image": "/static/March2025_Images/AdvancedMath/NonlinearFunctions/12144_3.png",
+  "difficulty": "medium",
+  "active": "no",
+  "marked": false,
+  "answer": "",
+  "explanation": ""
+},
+{
+  "id": 21,
+  "type": "free-response",
+  "question": "",
+  "choices": [],
+  "image": "/static/March2025_Images/AdvancedMath/NonlinearFunctions/12144_3.png",
+  "difficulty": "medium",
+  "active": "no",
+  "marked": false,
+  "answer": "",
+  "explanation": ""
+},{
+  "id": 22,
+  "type": "free-response",
+  "question": "",
+  "choices": [
+  "A) M(t) = 890(1/2)^(t/10)",
+  "B) M(t) = 890(1/10)^(t/2)",
+  "C) M(t) = 890(2)^(t/10)",
+  "D) M(t) = 890(10)^(t/2)"
+],
+  "image": "/static/March2025_Images/AdvancedMath/NonlinearFunctions/12144_3.png",
+  "difficulty": "medium",
+  "active": "no",
+  "marked": false,
+  "answer": "",
+  "explanation": ""
+},
+{
+  "id": 23,
+  "type": "free-response",
+  "question": "",
+  "choices": [],
+  "image": "/static/March2025_Images/AdvancedMath/NonlinearFunctions/12144_3.png",
+  "difficulty": "medium",
+  "active": "no",
+  "marked": false,
+  "answer": "",
+  "explanation": ""
+},
+{
+  "id": 24,
+  "type": "free-response",
+  "question": "",
+  "choices": [],
+  "image": "/static/March2025_Images/AdvancedMath/NonlinearFunctions/12144_3.png",
+  "difficulty": "medium",
+  "active": "no",
+  "marked": false,
+  "answer": "",
+  "explanation": ""
+},
+{
+  "id": 25,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+  "A) -20",
+  "B) 5",
+  "C) 10",
+  "D) 45"
+],
+  "image": "/static/March2025_Images/AdvancedMath/NonlinearFunctions/12138_1.png",
+  "difficulty": "easy",
+  "active": "no",
+  "marked": false,
+  "answer": "",
+  "explanation": ""
+},
+{
+  "id": 26,
+  "type": "free-response",
+  "question": "",
+  "choices": [],
+  "image": "/static/March2025_Images/AdvancedMath/NonlinearFunctions/12144_3.png",
+  "difficulty": "medium",
+  "active": "no",
+  "marked": false,
+  "answer": "",
+  "explanation": "The correct answer is −13/2. The value of x for which f(x) reaches its minimum can be found by rewriting the given equation in the form f(x) = (x − h)2 + 13x + 2, can be rewritten as f(x) = x2 + 13x + __) − __ + 2. By completing the square, this equation can be rewritten as f(x) = (x^2 + 13x + 169/4) − 169/4 + 2 = (x + 13/2)^2 − 121/4, which is equivalent to f(x) = (x + 13/2)^2 − 289/4 or f(x) = (x − (−13/2))^2 − 289/4. Therefore, f(x) reaches its minimum when the value of x is −13/2. Note that −13/2 and −6.5 are examples of ways to enter a correct answer. Another way to determine the value of x for which the function f(x) reaches its minimum is to use the fact that the graph of f(x) is a parabola. The value of x for the vertex of a parabola is the x-value of the midpoint between the two x-intercepts of the graph. The x-intercepts of a parabola in the form y = (x − a)(x − b) are a and b. It follows that the x-intercepts of the graph of y = f(x) in the xy-plane occur when x = −2 and x = −15, or at the points (−2, 0) and (−15, 0). The midpoint between two points, (x₁, y₁) and (x₂, y₂), is ((x₁ + x₂)/2, (y₁ + y₂)/2). Therefore, f(x) reaches its minimum when the value of x is (−2 + (−15))/2 = −17/2 = −13/2. Note that −13/2 and −6.5 are examples of ways to enter a correct answer."
+},
+{
+  "id": 27,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+  "A) I only",
+  "B) II only",
+  "C) I and II",
+  "D) Neither I nor II"
+],
+  "image": "/static/March2025_Images/AdvancedMath/NonlinearFunctions/12138_1.png",
+  "difficulty": "easy",
+  "active": "no",
+  "marked": false,
+  "answer": "",
+  "explanation": "Choice B is correct. For the function f, since the base of the exponent, 1.25, is greater than 1, the value of (1.25)^x increases as x increases. Therefore, the value of f(x) = 18(1.25)^x + 41 also increases as x increases. Since f is therefore an increasing function where x ≥ 0, the function f has no maximum value. For the function g, since the base of the exponent, 0.73, is less than 1, the value of (0.73)^x decreases as x increases. Therefore, the value of g(x) = 9(0.73)^x also decreases as x increases. It follows that the maximum value of g(x) for x ≥ 0 occurs when x = 0. Substituting 0 for x in the function g yields g(0) = 9(0.73)^0, which is equivalent to g(0) = 9(1), or g(0) = 9. Therefore, the maximum value of g(x) for x ≥ 0 is 9, which appears as a coefficient in equation II. So, of the two equations given, only II displays, as a constant or coefficient, the maximum value of the function it defines, where x ≥ 0. Choice A is incorrect and may result from conceptual or calculation errors. Choice C is incorrect and may result from conceptual or calculation errors. Choice D is incorrect and may result from conceptual or calculation errors."
+},
+{
+  "id": 28,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+  "A) 5",
+  "B) 10",
+  "C) 18",
+  "D) 36"
+],
+  "image": "/static/March2025_Images/AdvancedMath/NonlinearFunctions/12138_1.png",
+  "difficulty": "easy",
+  "active": "no",
+  "marked": false,
+  "answer": "",
+  "explanation": "Choice B is correct. The number that’s 8 more than x can be represented by the expression x + 8. It’s given that the product of x and x + 8 is 180, so it follows that (x)(x + 8) = 180, or x² + 8x = 180. Subtracting 180 from each side of this equation gives x² + 8x − 180 = 0. Factoring the left-hand side of this equation yields (x − 10)(x + 18) = 0. Applying the zero product property to this equation yields two solutions: x = 10 and x = −18. Since x is a positive number, the value of x is 10. Choice A is incorrect. If x = 5, the product of x and the number that’s 8 more than x would be (5)(13), or 65, not 180. Choice C is incorrect. This is the value of the number that’s 8 more than x, not the value of x. Choice D is incorrect. If x = 36, the product of x and the number that’s 8 more than x would be (36)(44), or 1,584, not 180."
+},
+{
+  "id": 29,
+  "type": "free-response",
+  "question": "",
+  "choices": [],
+  "image": "/static/March2025_Images/AdvancedMath/NonlinearFunctions/12144_3.png",
+  "difficulty": "medium",
+  "active": "no",
+  "marked": false,
+  "answer": "",
+  "explanation": "The correct answer is 168. The quadratic function g gives the estimated depth of the seal, g(t), in meters, t minutes after the seal enters the water. It’s given that function g estimates that the seal reached its maximum depth of 302.4 meters 6 minutes after it entered the water. Therefore, function g can be expressed in vertex form as g(t) = a(t – 6)^2 + 302.4, where a is a constant. Since it’s also given that the seal reached the surface of the water after 12 minutes, g(12) = 0. Substituting 12 for t and 0 for g(t) in g(t) = a(t – 6)^2 + 302.4 yields 0 = a(12 – 6)^2 + 302.4, or 36a = –302.4. Dividing both sides of this equation by 36 gives a = –8.4. Substituting –8.4 for a in g(t) = a(t – 6)^2 + 302.4 gives g(t) = –8.4(t – 6)^2 + 302.4. Substituting 10 for t in g(t) gives g(10) = –8.4(10 – 6)^2 + 302.4, which is equivalent to g(10) = –8.4(4)^2 + 302.4, or g(10) = 168. Therefore, the estimated depth, to the nearest meter, of the seal 10 minutes after it entered the water was 168 meters."
+},
+{
+  "id": 30,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+  "A) The predicted body mass of the animal was approximately 330 kg 362 days after it was born.",
+  "B) The predicted body mass of the animal was approximately 362 kg 330 days after it was born.",
+  "C) The predicted body mass of the animal was approximately 362 kg 330/7 days after it was born.",
+  "D) The predicted body mass of the animal was approximately 330/7 kg 362 days after it was born."
+],
+  "image": "/static/March2025_Images/AdvancedMath/NonlinearFunctions/12138_1.png",
+  "difficulty": "easy",
+  "active": "no",
+  "marked": false,
+  "answer": "",
+  "explanation": "Choice B is correct. In the statement 'm(330) is approximately equal to 362,' the input of the function, 330, is the value of t, the elapsed time, in days, since the animal was born. The approximate value of the function, 362, is the predicted body mass, in kilograms, of the animal after that time has elapsed. Therefore, the predicted body mass of the animal was approximately 362 kg 330 days after it was born. Choice A is incorrect. This would be the best interpretation of the statement 'm(362) is approximately equal to 330.' Choice C is incorrect. The number 330/7 is the number of weeks, not the number of days, after the animal was born. Choice D is incorrect. This would be the best interpretation of the statement 'm(362) is approximately equal to 330/7.'"
+},
+{
+  "id": 31,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+  "A) 4",
+  "B) 3",
+  "C) 2",
+  "D) 1"
+],
+  "image": "/static/March2025_Images/AdvancedMath/NonlinearFunctions/12138_1.png",
+  "difficulty": "easy",
+  "active": "no",
+  "marked": false,
+  "answer": "B) 3",
+  "explanation": "Choice B is correct. An x-intercept of a graph in the xy-plane is a point on the graph where the value of y is 0. Substituting 0 for y in the given equation yields 0 = 2(x - d)(x + d)(x + g)(x - d). By the zero product property, the solutions to this equation are x = d, x = -d, x = -g, and x = d. However, x = d and x = -d are repeated. It’s given that d and g are unique positive constants. It follows that the equation 0 = 2(x - d)(x + d)(x + g)(x - d) has 3 unique solutions: x = d, x = -d, and x = -g. Thus, the graph of the given equation has 3 distinct x-intercepts. Choice A is incorrect and may result from conceptual errors. Choice C is incorrect and may result from conceptual errors. Choice D is incorrect and may result from conceptual errors."
+},
+{
+  "id": 32,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+  "A) (0, -2)",
+  "B) (0, -3)",
+  "C) (0, 2)",
+  "D) (0, 3)"
+],
+  "image": "/static/March2025_Images/AdvancedMath/NonlinearFunctions/12138_1.png",
+  "difficulty": "easy",
+  "active": "no",
+  "marked": false,
+  "answer": "C) (0, 2)",
+  "explanation": "Choice C is correct. The vertex of the graph of a quadratic function in the xy-plane is the point at which the graph is either at its minimum or maximum y-value. In the graph shown, the minimum y-value occurs at the point (0, 2). Choice A is incorrect. The graph shown doesn't pass through the point (0, -2). Choice B is incorrect. The graph shown doesn't pass through the point (0, -3). Choice D is incorrect. The graph shown doesn't pass through the point (0, 3)."
+}
+]
+
+

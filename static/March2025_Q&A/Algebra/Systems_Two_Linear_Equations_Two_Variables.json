@@ -1,0 +1,224 @@
+[
+  {
+  "id": 1,
+  "type": "free-response",
+  "question": "",
+  "choices": [],
+  "image": "/static/March2025_Images/Algebra/SystemsOfTwoLinearEquationsInTwoVariables/12139_1.png",
+  "difficulty": "hard",
+  "active": "no",
+  "marked": false,
+  "answer": "3",
+  "explanation": "The correct answer is 3. Adding the second equation to the first in the given system yields 2(8x) – 2(8x) + 4(7y) + 4(7y) = 12 + 12, or 8(7y) = 24. Dividing by 8 gives 7y = 3. Substituting 7y = 3 into 2(8x) + 4(7y) = 12 yields 2(8x) + 12 = 12, so 2(8x) = 0 and thus 8x = 0. Finally, substituting 8x = 0 and 7y = 3 into 8x + y gives 0 + 3, or 3."
+},
+{
+  "id": 2,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+  "A) x = 4y",
+  "B) 1/3x = 4y",
+  "C) x = 12y - 15",
+  "D) 1/3x = 12y - 15"
+],
+  "image": "/static/March2025_Images/Algebra/SystemsOfTwoLinearEquationsInTwoVariables/12141_2.png",
+  "difficulty": "hard",
+  "active": "no",
+  "marked": false,
+  "answer": "B) 1/3x = 4y",
+  "explanation": "Choice B is correct. A system of two linear equations in two variables, x and y, has no solution when the lines in the xy-plane representing the equations are parallel and distinct. Two lines are parallel and distinct if their slopes are the same and their y-intercepts are different. The slope of the graph of the given equation, 3x = 36y - 45, in the xy-plane can be found by rewriting the equation in the form y = mx + b, where m is the slope of the graph and (0, b) is the y-intercept. Adding 45 to each side of the given equation yields 3x + 45 = 36y. Dividing each side of this equation by 36 yields 1/12x + 5/4 = y, or y = 1/12x + 5/4. It follows that the slope of the graph of the given equation is 1/12 and the y-intercept is (0, 5/4). Therefore, the graph of the second equation in the system must also have a slope of 1/12, but must not have a y-intercept of (0, 5/4). Multiplying each side of the equation given in choice B by 4 yields 1/12x = y, or y = 1/12x. It follows that the graph representing the equation in choice B has a slope of 1/12 and a y-intercept of (0, 0). Since the slopes of the graphs of the two equations are equal and the y-intercepts of the graphs of the two equations are different, the equation in choice B could be the second equation in the system. Choice A is incorrect. This equation can be rewritten as y = 1/4x. It follows that the graph of this equation has a slope of 1/4, so the system consisting of this equation and the given equation has exactly one solution, rather than no solution. Choice C is incorrect. This equation can be rewritten as y = 1/12x + 5/4. It follows that the graph of this equation has a slope of 1/12 and a y-intercept of (0, 5/4), so the system consisting of this equation and the given equation has infinitely many solutions, rather than no solution. Choice D is incorrect. This equation can be rewritten as y = 1/36x + 5/4. It follows that the graph of this equation has a slope of 1/36, so the system consisting of this equation and the given equation has exactly one solution, rather than no solution."
+},
+{
+  "id": 3,
+  "type": "free-response",
+  "question": "",
+  "choices": [],
+  "image": "/static/March2025_Images/Algebra/SystemsOfTwoLinearEquationsInTwoVariables/12145_3.png",
+  "difficulty": "hard",
+  "active": "no",
+  "marked": false,
+  "answer": "2/7",
+  "explanation": "The correct answer is 2/7. It’s given that the system has infinitely many solutions, which happens only if the two equations are equivalent. Multiplying each side of the first equation by 35/4 yields (35/4).((2/5)x + (7/5)y = (35/4)(2/7), which simplifies to (7/2)x + (49/4)y = 5/2. Since this matches the second equation, the coefficients must be equal: g = 7/2 and k = 49/4. Therefore g ÷ k = (7/2)/(49/4) = 2/7."
+},
+{
+  "id": 4,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+  "A) (r, -6r/7 + 5/7)",
+  "B) (r, 7r/6 + 5/6)",
+  "C) (r/4 + 5, -r/4 + 20)",
+  "D) (-6r/7 + 5/7, r)"
+],
+  "image": "/static/March2025_Images/Algebra/SystemsOfTwoLinearEquationsInTwoVariables/12146_4.png",
+  "difficulty": "hard",
+  "active": "no",
+  "marked": false,
+  "answer": "D) (-6r/7 + 5/7, r)",
+  "explanation": "Choice D is correct. Dividing each side of the second equation in the given system by 4 yields 7x + 6y = 5. It follows that the two equations in the given system are equivalent and any point that lies on the graph of one equation will also lie on the graph of the other equation. Substituting r for y in the equation 7x + 6y = 5 yields 7x + 6r = 5. Subtracting 6r from each side of this equation yields 7x = -6r + 5. Dividing each side of this equation by 7 yields x = -6r/7 + 5/7. Therefore, the point (-6r/7 + 5/7, r) lies on the graph of each equation in the xy-plane for each real number r. Choice A is incorrect. Substituting r for x in the equation 7x + 6y = 5 yields 7r + 6y = 5. Subtracting 7r from each side of this equation yields 6y = -7r + 5. Dividing each side of this equation by 6 yields y = -7r/6 + 5/6. Therefore, the point (r, -7r/6 + 5/6), not the point (r, -6r/7 + 5/7), lies on the graph of each equation. Choice B is incorrect. Substituting r for x in the equation 7x + 6y = 5 yields 7r + 6y = 5. Subtracting 7r from each side of this equation yields 6y = -7r + 5. Dividing each side of this equation by 6 yields y = -7r/6 + 5/6. Therefore, the point (r, -7r/6 + 5/6), not the point (r, 7r/6 + 5/6), lies on the graph of each equation. Choice C is incorrect. Substituting r + 5 for x in the equation 7x + 6y = 5 yields 7(r + 5) + 6y = 5, or (7r + 35) + 6y = 5. Subtracting (7r + 35) from each side of this equation yields 6y = -7r - 35 + 5, or 6y = -7r - 30. Dividing each side of this equation by 6 yields y = -7r/6 - 5. Therefore, the point (r + 5, -7r/6 - 5), not the point (r + 5, -r + 20), lies on the graph of each equation."
+},
+{
+  "id": 5,
+  "type": "free-response",
+  "question": "",
+  "choices": [],
+  "image": "/static/March2025_Images/Algebra/SystemsOfTwoLinearEquationsInTwoVariables/12148_5.png",
+  "difficulty": "hard",
+  "active": "no",
+  "marked": false,
+  "answer": "87",
+  "explanation": "The correct answer is 87. It's given that in August, the car dealer completed 15 more than 3 times the number of sales the car dealer completed in September. Let x represent the number of sales the car dealer completed in September. It follows that 3x+15 represents the number of sales the car dealer completed in August. It's also given that in August and September, the car dealer completed 363 sales. It follows that x+(3x+15)=363, or 4x+15=363. Subtracting 15 from each side of this equation yields 4x=348. Dividing each side of this equation by 4 yields x=87. Therefore, the car dealer completed 87 sales in September."
+},
+{
+  "id": 6,
+  "type": "free-response",
+  "question": "",
+  "choices": [],
+  "image": "/static/March2025_Images/Algebra/SystemsOfTwoLinearEquationsInTwoVariables/12154_6.png",
+  "difficulty": "medium",
+  "active": "no",
+  "marked": false,
+  "answer": "40",
+  "explanation": "The correct answer is 40. It's given in the first equation of the system that y=−2x. Substituting −2x for y in the second equation of the system yields 3x+(−2x)=40. Combining like terms on the left-hand side of this equation yields x=40. Therefore, the value of x is 40."
+},
+{
+  "id": 7,
+  "type": "free-response",
+  "question": "",
+  "choices": [],
+  "image": "/static/March2025_Images/Algebra/SystemsOfTwoLinearEquationsInTwoVariables/12160_7.png",
+  "difficulty": "medium",
+  "active": "no",
+  "marked": false,
+  "answer": "25",
+  "explanation": "The correct answer is 25. Subtracting the second equation from the first equation in the given system of equations yields (2a−2a)+(8b−4b)=198−98, which is equivalent to 0+4b=100, or 4b=100. Dividing each side of this equation by 4 yields b=25."
+},
+{
+  "id": 8,
+  "type": "free-response",
+  "question": "",
+  "choices": [],
+  "image": "/static/March2025_Images/Algebra/SystemsOfTwoLinearEquationsInTwoVariables/12173_8.png",
+  "difficulty": "medium",
+  "active": "no",
+  "marked": false,
+  "answer": "3",
+  "explanation": "The correct answer is 3. It's given that y=9x+12. Substituting 9x+12 for y in the second equation in the system, x+7y=20, yields x+7(9x+12)=20, which gives x+63x+84=20, or 64x+84=20. Subtracting 84 from each side of this equation yields 64x=−64. Dividing each side of this equation by 64 yields x=−1. Substituting −1 for x in the first equation in the system, y=9x+12, yields y=9(−1)+12, or y=3. Therefore, the value of y is 3."
+},
+{
+  "id": 9,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+  "A) y = 2(6x) + 3",
+  "B) y = 2(6x + 3)",
+  "C) 2(y) = 2(6x) + 3",
+  "D) 2(y) = 2(6x + 3)"
+],
+  "image": "/static/March2025_Images/Algebra/SystemsOfTwoLinearEquationsInTwoVariables/12176_9.png",
+  "difficulty": "medium",
+  "active": "no",
+  "marked": false,
+  "answer": "D) 2(y) = 2(6x + 3)",
+  "explanation": "Choice D is correct. It's given that the system has infinitely many solutions. A system of two linear equations has infinitely many solutions when the two linear equations are equivalent. When one equation is a multiple of another equation, the two equations are equivalent. Multiplying each side of the given equation by 2 yields 2(y) = 2(6x + 3). Thus, 2(y) = 2(6x + 3) is equivalent to the given equation and could be the second equation in the system. Choice A is incorrect. The system consisting of this equation and the given equation has one solution rather than infinitely many solutions. Choice B is incorrect. The system consisting of this equation and the given equation has one solution rather than infinitely many solutions. Choice C is incorrect. The system consisting of this equation and the given equation has no solutions rather than infinitely many solutions."
+},
+{
+  "id": 10,
+  "type": "free-response",
+  "question": "",
+  "choices": [],
+  "image": "/static/March2025_Images/Algebra/SystemsOfTwoLinearEquationsInTwoVariables/12177_10.png",
+  "difficulty": "medium",
+  "active": "no",
+  "marked": false,
+  "answer": "3",
+  "explanation": "The correct answer is 1. Subtracting the second equation from the first equation in the given system of equations yields (3x−3x)+(6−4)=4y−2y, which is equivalent to 0+2=2y, or 2=2y. Dividing each side of this equation by 2 yields 1=y."
+},
+{
+  "id": 11,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+  "A) 2",
+  "B) 3",
+  "C) 48",
+  "D) 71"
+],
+  "image": "/static/March2025_Images/Algebra/SystemsOfTwoLinearEquationsInTwoVariables/12178_11.png",
+  "difficulty": "hard",
+  "active": "no",
+  "marked": false,
+  "answer": "D) 71",
+  "explanation": "Choice D is correct. Multiplying the second equation in the given system by 2 yields 10/2x + 12y = 46. Adding this equation to the first equation in the system yields (7/2x + 6y) + (10/2x + 12y) = 25 + 46, which is equivalent to (7/2x + 10/2x) + (6y + 12y) = 25 + 46, or 17/2x + 18y = 71. Therefore, the value of 17/2x + 18y is 71. Choice A is incorrect. This is the value of x, not the value of 17/2x + 18y. Choice B is incorrect. This is the value of y, not the value of 17/2x + 18y. Choice C is incorrect. This is the value of (7/2x + 6y) + (5/2x + 6y), or 6x + 12y, not the value of 17/2x + 18y."
+},
+{
+  "id": 12,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+  "A) (0, 4)",
+  "B) (2, 2)",
+  "C) (4, 0)",
+  "D) (4, 4)"
+],
+  "image": "/static/March2025_Images/Algebra/SystemsOfTwoLinearEquationsInTwoVariables/12184_12.png",
+  "difficulty": "easy",
+  "active": "no",
+  "marked": false,
+  "answer": "B) (2, 2)",
+  "explanation": "Choice B is correct. The solution to this system of linear equations is represented by the point that lies on both lines shown, or the point of intersection of the two lines. According to the graph, the point of intersection occurs when x=2 and y=2, or at the point (2,2). Therefore, the solution (x,y) to the system is (2,2). Choice A is incorrect and may result from conceptual or calculation errors. Choice C is incorrect and may result from conceptual or calculation errors. Choice D is incorrect and may result from conceptual or calculation errors."
+},
+{
+  "id": 13,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+  "A) -18",
+  "B) -6",
+  "C) 6",
+  "D) 18"
+],
+  "image": "/static/March2025_Images/Algebra/SystemsOfTwoLinearEquationsInTwoVariables/12189_13.png",
+  "difficulty": "medium",
+  "active": "no",
+  "marked": false,
+  "answer": "D) 18",
+  "explanation": "Choice D is correct. Adding the second equation to the first equation in the given system of equations yields 3y - 3y = 4x + 9x + 17 - 23, or 0 = 13x - 6. Adding 6 to each side of this equation yields 6 = 13x. Multiplying each side of this equation by 3 yields 18 = 39x. Therefore, the value of 39x is 18. Choice A is incorrect. This is the value of -39x, not 39x. Choice B is incorrect. This is the value of -13x, not 39x. Choice C is incorrect. This is the value of 13x, not 39x."
+},
+{
+  "id": 14,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+  "A) (4, -5)",
+  "B) (0, 3)",
+  "C) (0, -2)",
+  "D) (-2, 3)"
+],
+  "image": "/static/March2025_Images/Algebra/SystemsOfTwoLinearEquationsInTwoVariables/12191_14.png",
+  "difficulty": "easy",
+  "active": "no",
+  "marked": false,
+  "answer": "A) (4, -5)",
+  "explanation": "Choice A is correct. The solution to this system of linear equations is represented by the point that lies on both lines shown, or the point of intersection of the two lines. According to the graph, the point of intersection occurs when x = 4 and y = -5, or at the point (4, -5). Therefore, the solution (x, y) to the system is (4, -5). Choice B is incorrect and may result from conceptual or calculation errors. Choice C is incorrect and may result from conceptual or calculation errors. Choice D is incorrect and may result from conceptual or calculation errors."
+},
+{
+  "id": 15,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+  "A) (0, -7)",
+  "B) (0, -3)",
+  "C) (-4, -3)",
+  "D) (-4, 0)"
+],
+  "image": "/static/March2025_Images/Algebra/SystemsOfTwoLinearEquationsInTwoVariables/12192_15.png",
+  "difficulty": "easy",
+  "active": "no",
+  "marked": false,
+  "answer": "C) (-4, -3)",
+  "explanation": "Choice C is correct. The solution to a system of linear equations is represented by the point that lies on the graph of each equation in the system, or the point where the lines intersect on a graph. On the graph shown, the two lines intersect at the point (-4, -3). Therefore, the solution to the system is (-4, -3). Choice A is incorrect. This is the y-intercept of the graph of one of the lines shown, not the intersection point of the two lines. Choice B is incorrect and may result from conceptual or calculation errors. Choice D is incorrect and may result from conceptual or calculation errors."
+}
+]
+
+

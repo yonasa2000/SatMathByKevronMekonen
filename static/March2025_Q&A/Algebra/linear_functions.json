@@ -1,0 +1,234 @@
+[
+  {
+  "id": 1,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+    "A) 50",
+    "B) 57",
+    "C) 80",
+    "D) 110"
+  ],
+  "image": "/static/March2025_Images/Algebra/LinearFunctions/12138_1.png",
+  "difficulty": "easy",
+  "active": "no",
+  "marked": false,
+  "answer": "C) 80",
+  "explanation": "Choice C is correct. It's given that the function f is defined by f(x) = 25x + 30. Substituting 2 for x in this equation yields f(2) = 25(2) + 30, which is equivalent to f(2) = 50 + 30, or f(2) = 80. Therefore, the value of f(x) is 80 when x = 2.\n\nChoice A is incorrect. This is the value of 25(2), not 25(2) + 30.\nChoice B is incorrect. This is the value of 25 + 2 + 30, not 25(2) + 30.\nChoice D is incorrect. This is the value of (25 + 30)(2), not 25(2) + 30."
+},
+{
+  "id": 2,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+    "A) 0",
+    "B) 1",
+    "C) 4",
+    "D) 7"
+  ],
+  "image": "/static/March2025_Images/Algebra/LinearFunctions/12140_2.png",
+  "difficulty": "easy",
+  "active": "no",
+  "marked": false,
+  "answer": "A) 0",
+  "explanation": "Choice A is correct. For the linear function f, it’s given that f(7) = 28. Substituting 7 for x and 28 for f(x) in the given function yields 28 = 4(7) + b, or 28 = 28 + b. Subtracting 28 from each side of this equation yields 0 = b. Therefore, the value of b is 0.\n\nChoice B is incorrect. Substituting 1 for b in the given function yields f(x) = 4x + 1. For this function, when the value of x is 7, the value of f(x) is 29, not 28.\nChoice C is incorrect. Substituting 4 for b in the given function yields f(x) = 4x + 4. For this function, when the value of x is 7, the value of f(x) is 32, not 28.\nChoice D is incorrect. Substituting 7 for b in the given function yields f(x) = 4x + 7. For this function, when the value of x is 7, the value of f(x) is 35, not 28."
+},
+{
+  "id": 3,
+  "type": "free-response",
+  "question": "",
+  "choices": [],
+  "image": "/static/March2025_Images/Algebra/LinearFunctions/12144_3.png",
+  "difficulty": "medium",
+  "active": "no",
+  "marked": false,
+  "answer": "67",
+  "explanation": "The correct answer is 67. It is given that f(5) = 32. Therefore, for the given function f, when x = 5, f(x) = 32. Substituting 5 for x and 32 for f(x) in the given function f(x) = 4x + k(x − 1) yields 32 = 4(5) + k(5 − 1), or 32 = 20 + 4k. Subtracting 20 from each side of this equation yields 12 = 4k. Dividing each side of this equation by 4 yields k = 3. Substituting 3 for k in the given function f(x) = 4x + k(x − 1) yields f(x) = 4x + 3(x − 1), which is equivalent to f(x) = 4x + 3x − 3, or f(x) = 7x − 3. Substituting 10 for x into this equation yields f(10) = 7(10) − 3, or f(10) = 67. Therefore, the value of f(10) is 67."
+},
+{
+  "id": 4,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+    "A) h(x) = 5x - 4",
+    "B) h(x) = 5x + 7",
+    "C) h(x) = 5x + 20",
+    "D) h(x) = 5x + 25"
+  ],
+  "image": "/static/March2025_Images/Algebra/LinearFunctions/12156_4.png",
+  "difficulty": "hard",
+  "active": "no",
+  "marked": false,
+  "answer": "B) h(x) = 5x + 7",
+  "explanation": "Choice B is correct. An equation that defines a linear function f can be written in the form f(x) = mx + b, where m and b are constants. It's given in the table that when x = -4, f(x) = 0. So 0 = m(-4) + b implies that 0 = -4m + b. Adding 4m to both sides yields b = 4m. Substituting 4m for b gives f(x) = mx + 4m. It's also given that when x = 19/5, f(x) = 5. So 5 = m(19/5) + 4m. Multiplying both sides by 5 yields 25 = 19m + 20m, or 25 = 39m. Solving for m gives m = 25/39. Substituting 5 for m in f(x) = mx + 4m gives f(x) = 5x + 20. Since h(x) = f(x) + 7, then h(x) = (5x + 20) + 7 = 5x + 27.\n\nChoice A is incorrect and may result from conceptual or calculation errors.\nChoice C is incorrect and may result from calculation error.\nChoice D is incorrect. This is an equation that defines the linear function f, not h."
+},
+{
+  "id": 5,
+  "type": "free-response",
+  "question": "",
+  "choices": [],
+  "image": "/static/March2025_Images/Algebra/LinearFunctions/12158_5.png",
+  "difficulty": "medium",
+  "active": "no",
+  "marked": false,
+  "answer": "2850",
+  "explanation": "The correct answer is 2,850. It's given that the function f(x) = 45x + 600 gives the monthly fee, in dollars, a facility charges to keep x crates in storage. Substituting 50 for x in this function yields f(50) = 45(50) + 600, or f(50) = 2,850. Therefore, the monthly fee, in dollars, the facility charges to keep 50 crates in storage is 2,850."
+},
+{
+  "id": 6,
+  "type": "free-response",
+  "question": "",
+  "choices": [],
+  "image": "/static/March2025_Images/Algebra/LinearFunctions/12159_6.png",
+  "difficulty": "medium",
+  "active": "no",
+  "marked": false,
+  "answer": "45",
+  "explanation": "The correct answer is 45. It's given that h(0) = 45. Therefore, for the given function h, when x = 0, h(x) = 45. Substituting 0 for x and 45 for h(x) in the given function, h(x) = x + b, yields 45 = 0 + b, or 45 = b. Therefore, the value of b is 45."
+},
+{
+  "id": 7,
+  "type": "free-response",
+  "question": "",
+  "choices": [],
+  "image": "/static/March2025_Images/Algebra/LinearFunctions/12162_7.png",
+  "difficulty": "easy",
+  "active": "no",
+  "marked": false,
+  "answer": "1",
+  "explanation": "The correct answer is 1. It's given that the function f is defined by f(x) = x + 8/11. Substituting 3/11 for x in the given function yields f(3/11) = 3/11 + 8/11, which gives f(3/11) = 11/11 or f(3/11) = 1. Therefore, when x = 3/11, the value of f(x) is 1."
+},
+{
+  "id": 8,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+    "A) S = w / 170",
+    "B) S = 170w",
+    "C) S = 340w",
+    "D) S = w / 85"
+  ],
+  "image": "/static/March2025_Images/Algebra/LinearFunctions/12163_8.png",
+  "difficulty": "hard",
+  "active": "no",
+  "marked": false,
+  "answer": "D) S = w / 85",
+  "explanation": "Choice D is correct. It's given that w represents the total fence area, in square feet. Since the fence will be stained twice, the total stain, in gallons, will need to cover 2w square feet. It's also given that one gallon of stain will cover 170 square feet. Dividing the total area to be stained by the number of square feet covered by one gallon gives the number of gallons needed. Dividing 2w by 170 yields (2w)/170, or w/85. Therefore, the equation that represents the total amount of stain S, in gallons, needed to stain the fence of the yard twice is S = w / 85.\n\nChoice B is incorrect and may result from conceptual or calculation errors.\nChoice C is incorrect and may result from conceptual or calculation errors."
+},
+{
+  "id": 9,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+    "A) The tree will be measured each year for 4 years.",
+    "B) The tree is estimated to grow to a maximum height of 4 feet.",
+    "C) The estimated height of the tree increased by 4 feet each year.",
+    "D) The estimated height of the tree was 4 feet when it was first measured."
+  ],
+  "image": "/static/March2025_Images/Algebra/LinearFunctions/12164_9.png",
+  "difficulty": "easy",
+  "active": "no",
+  "marked": false,
+  "answer": "D) The estimated height of the tree was 4 feet when it was first measured.",
+  "explanation": "Choice D is correct. It's given that the function f(x) = 8x + 4 gives the estimated height, in feet, of a willow tree x years after its height was first measured. For a function defined by an equation of the form f(x) = mx + b, where m and b are constants, b represents the value of f(x) when x = 0. It follows that in this function, 4 represents the value of f(x) when x = 0. Therefore, the best interpretation of 4 in this context is that the estimated height of the tree was 4 feet when it was first measured.\n\nChoice A is incorrect and may result from conceptual errors.\nChoice B is incorrect and may result from conceptual errors.\nChoice C is incorrect and may result from conceptual errors."
+},
+{
+  "id": 10,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+    "A) 20",
+    "B) 12",
+    "C) 10",
+    "D) 5"
+  ],
+  "image": "/static/March2025_Images/Algebra/LinearFunctions/12170_10.png",
+  "difficulty": "easy",
+  "active": "no",
+  "marked": false,
+  "answer": "D) 5",
+  "explanation": "Choice D is correct. It's given that the function f is defined by f(x) = 1/2(x + 6). Substituting 4 for x in the given function yields f(4) = 1/2(4 + 6), or f(4) = 1/2(10), which equals 5. Therefore, the value of f(4) is 5.\n\nChoice A is incorrect. This is the value of 2(4 + 6), not 1/2(4 + 6).\nChoice B is incorrect. This is the value of 2 + (4 + 6), not 1/2(4 + 6).\nChoice C is incorrect. This is the value of 4 + 6, not 1/2(4 + 6)."
+},
+{
+  "id": 11,
+  "type": "free-response",
+  "question": "",
+  "choices": [],
+  "image": "/static/March2025_Images/Algebra/LinearFunctions/12183_11.png",
+  "difficulty": "easy",
+  "active": "no",
+  "marked": false,
+  "answer": "224",
+  "explanation": "The correct answer is 224. It's given that a student council group uses the function p(x) = 5x − 220 to determine their profit p(x) in dollars, for selling x school posters. Substituting 900 for p(x) in the given function yields 900 = 5x − 220. Adding 220 to each side of this equation yields 1,120 = 5x. Dividing each side of this equation by 5 yields 224 = x. Therefore, in order to earn a profit of $900, they must sell 224 school posters."
+},
+{
+  "id": 12,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+    "A) When f(x) = 0, the number is -19/4.",
+    "B) When the number is 0, f(x) = 19.",
+    "C) The value of f(x) increases by 1 for each increase of 4 in the value of x.",
+    "D) For each increase of 1 in the value of the number, f(x) increases by 4."
+  ],
+  "image": "/static/March2025_Images/Algebra/LinearFunctions/12186_12.png",
+  "difficulty": "hard",
+  "active": "no",
+  "marked": false,
+  "answer": "A) When f(x) = 0, the number is -19/4.",
+  "explanation": "Choice A is correct. The function f(x) is defined as 19 more than 4 times a number x, represented by the equation f(x) = 4x + 19. The x-intercept of the graph is the point where f(x) = 0. Substituting 0 for f(x) gives 0 = 4x + 19. Solving this yields x = -19/4. Therefore, when f(x) = 0, the number x = -19/4.\n\nChoice B is incorrect. This describes the y-intercept, not the x-intercept.\nChoice C is incorrect and may result from conceptual or calculation errors.\nChoice D is incorrect. This describes the slope, not the x-intercept."
+},
+{
+  "id": 13,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+    "A) 15c / 4",
+    "B) 19c / 4 + 7",
+    "C) 61c / 4 + 105",
+    "D) 15c + 105"
+  ],
+  "image": "/static/March2025_Images/Algebra/LinearFunctions/12190_13.png",
+  "difficulty": "hard",
+  "active": "no",
+  "marked": false,
+  "answer": "C) 61c / 4 + 105",
+  "explanation": "Choice C is correct. It's given that g(c + 7) = c / 4. Therefore, for the linear function g(x) = b - 15x, substituting c + 7 for x and c / 4 for g(x) gives c / 4 = b - 15(c + 7). Applying the distributive property yields c / 4 = b - 15c - 105. Adding 15c to both sides gives c / 4 + 15c = b - 105. Then adding 105 to both sides yields c / 4 + 15c + 105 = b. Combining terms gives b = 61c / 4 + 105.\n\nChoice A is incorrect and may result from conceptual or calculation errors.\nChoice B is incorrect and may result from conceptual or calculation errors.\nChoice D is incorrect and may result from conceptual or calculation errors."
+},
+{
+  "id": 14,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+    "A) 49",
+    "B) 52",
+    "C) 57",
+    "D) 84"
+  ],
+  "image": "/static/March2025_Images/Algebra/LinearFunctions/12193_14.png",
+  "difficulty": "easy",
+  "active": "no",
+  "marked": false,
+  "answer": "D) 84",
+  "explanation": "Choice D is correct. To find the value of f(x) when x = -8, substitute -8 into the function: f(-8) = -3(-8) + 60 = 24 + 60 = 84. Therefore, when x = -8, the value of f(x) is 84.\n\nChoice A is incorrect. This is the value of (-3 + (-8)) + 60, not -3(-8) + 60.\nChoice B is incorrect. This is the value of -8 + 60, not -3(-8) + 60.\nChoice C is incorrect. This is the value of -3 + 60, not -3(-8) + 60."
+},
+{
+  "id": 15,
+  "type": "multiple-choice",
+  "question": "",
+  "choices": [
+    "A) C(d) = 26d + 26",
+    "B) C(d) = 26d + 52",
+    "C) C(d) = 52d + 26",
+    "D) C(d) = 52d + 78"
+  ],
+  "image": "/static/March2025_Images/Algebra/LinearFunctions/12196_15.png",
+  "difficulty": "hard",
+  "active": "no",
+  "marked": false,
+  "answer": "A) C(d) = 26d + 26",
+  "explanation": "Choice A is correct. The cost of renting a carpet cleaner is $52 for the first day and $26 for each additional day. For d days, the total cost is $52 + $26(d - 1). Simplifying this expression gives C(d) = 52 + 26d - 26 = 26d + 26.\n\nChoice B is incorrect. This assumes the first day costs $78 instead of $52.\nChoice C is incorrect. This reverses the rates, using $52 per additional day and $26 for the first day.\nChoice D is incorrect. This assumes both the daily rate and first-day cost are $52, totaling $130 for the first day."
+}
+]
+
+
